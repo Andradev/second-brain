@@ -1,13 +1,16 @@
 # Overview
 
-Esta wiki sera atualizada conforme conteudos reais forem adicionados, importados, revisados e processados.
+Esta wiki sera atualizada conforme conteudos reais forem adicionados, revisados e processados.
 
-## Estado atual
+## Estado inicial
 
-Nenhum conteudo real foi classificado diretamente nas pastas finais da wiki nesta limpeza.
+Nenhum conteudo real adicionado ainda.
 
-Conteudo legado real foi movido para:
+## Areas da wiki
 
-- `03-wiki/inbox/legacy-import/wiki/`
-
-Esse conteudo precisa de revisao antes de voltar para `concepts/`, `entities/`, `sources/`, `comparisons/` ou `synthesis/`.
+- `sources/`: registros de fontes importantes ja analisadas.
+- `concepts/`: conceitos reutilizaveis.
+- `entities/`: pessoas, ferramentas, empresas, lugares e outros elementos reais.
+- `comparisons/`: comparacoes entre ideias, ferramentas ou decisoes.
+- `synthesis/`: sinteses vivas sobre temas recorrentes.
+- `questions/`: perguntas abertas.

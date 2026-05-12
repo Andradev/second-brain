@@ -1,22 +1,20 @@
 # Projects & Ideas
 
-Area para ideias, produtos, sistemas, oportunidades, brainstorms, MVPs e projetos ainda nao estruturados.
-
 ## Navegacao
 
-- [[02-domains/05-projects-ideas/_manual|Manual da area]]
-- [[02-domains/05-projects-ideas/log|Log da area]]
-- `inbox/`
-- `notes/`
-- `sources/`
-- `concepts/`
-- `entities/`
-- `questions/`
-- `synthesis/`
-- `decisions/`
-- `projects/`
+- [[02-domains/05-projects-ideas/_manual|Manual do dominio]]
+- [[02-domains/05-projects-ideas/log|Log]]
+- inbox/
+- 
+otes/
+- sources/
+- concepts/
+- entities/
+- questions/
+- synthesis/
+- decisions/
+- projects/
 
-## Destaques
+## Estado inicial
 
-- Ideias maduras podem virar projeto em [[05-projects/index]].
-- Aguardando notas processadas.
+Nenhum conteudo real adicionado ainda.

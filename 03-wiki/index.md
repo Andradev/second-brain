@@ -16,22 +16,9 @@ Ela existe para conceitos, entidades, fontes, sinteses, comparacoes e perguntas 
 - `synthesis/`
 - `questions/`
 
-## Inbox da wiki
+## Estado inicial
 
-- `03-wiki/inbox/`: paginas que precisam de revisao antes de classificacao definitiva.
-- `03-wiki/inbox/legacy-import/wiki/`: conteudo real importado da antiga pasta `wiki/`.
-
-## Conceitos
-
-Nenhum conteudo real classificado ainda.
-
-## Entidades
-
-Nenhum conteudo real classificado ainda.
-
-## Sinteses
-
-Nenhum conteudo real classificado ainda.
+Nenhum conteudo real adicionado ainda.
 
 ## Regras rapidas
 

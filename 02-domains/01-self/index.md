@@ -1,21 +1,20 @@
 # Self
 
-Area para identidade, valores, autoconhecimento, historia pessoal, objetivos e direcao de vida.
-
 ## Navegacao
 
-- [[02-domains/01-self/_manual|Manual da area]]
-- [[02-domains/01-self/log|Log da area]]
-- `inbox/`
-- `notes/`
-- `sources/`
-- `concepts/`
-- `entities/`
-- `questions/`
-- `synthesis/`
-- `decisions/`
-- `projects/`
+- [[02-domains/01-self/_manual|Manual do dominio]]
+- [[02-domains/01-self/log|Log]]
+- inbox/
+- 
+otes/
+- sources/
+- concepts/
+- entities/
+- questions/
+- synthesis/
+- decisions/
+- projects/
 
-## Destaques
+## Estado inicial
 
-- Aguardando notas processadas.
+Nenhum conteudo real adicionado ainda.

@@ -1,22 +1,20 @@
 # Finances
 
-Area para dinheiro, gastos, orcamento, metas financeiras, dividas, renda, investimentos e decisoes financeiras.
-
 ## Navegacao
 
-- [[02-domains/08-finances/_manual|Manual da area]]
-- [[02-domains/08-finances/log|Log da area]]
-- `inbox/`
-- `notes/`
-- `sources/`
-- `concepts/`
-- `entities/`
-- `questions/`
-- `synthesis/`
-- `decisions/`
-- `projects/`
+- [[02-domains/08-finances/_manual|Manual do dominio]]
+- [[02-domains/08-finances/log|Log]]
+- inbox/
+- 
+otes/
+- sources/
+- concepts/
+- entities/
+- questions/
+- synthesis/
+- decisions/
+- projects/
 
-## Destaques
+## Estado inicial
 
-- Registrar numeros somente quando estiverem nas fontes.
-- Aguardando notas processadas.
+Nenhum conteudo real adicionado ainda.

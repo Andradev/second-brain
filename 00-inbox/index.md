@@ -1,22 +1,11 @@
 # Inbox
 
-Entrada livre do Second Brain.
+Entrada rapida para capturas, ideias e notas ainda nao classificadas.
 
-## Arquivos principais
+## Estrutura
 
-- [[00-inbox/ideias-soltas]]
-- [[00-inbox/capturas-rapidas]]
+- `README.md`
 
-## Pastas
+## Estado inicial
 
-- `para-processar/`
-- `audio-transcricoes/`
-- `prints/`
-
-## Regra
-
-Capture primeiro. Organize depois.
-
-## Manual de uso
-
-- [[00-inbox/README|Manual de uso]]
+Nenhum conteudo real adicionado ainda.

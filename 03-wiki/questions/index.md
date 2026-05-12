@@ -1,7 +1,7 @@
-# Perguntas abertas da wiki
+# Perguntas da wiki
 
-Use esta pasta para perguntas duraveis que atravessam dominios.
+Use esta pasta para perguntas abertas que surgirem de conteudo real.
 
-## Perguntas
+## Estado inicial
 
 Nenhum conteudo real adicionado ainda.

@@ -1,6 +1,6 @@
 # Raw
 
-Esta pasta guarda fontes brutas e originais.
+Esta pasta guarda fontes brutas e originais antes de qualquer processamento.
 
 ## Entrada geral
 
@@ -26,9 +26,9 @@ Categorias:
 - `images/`
 - `assets/`
 
-## Legado importado
+## Estado inicial
 
-- `inbox/legacy-import/raw/`: conteudo real que estava na antiga pasta `raw/`.
+Nenhum conteudo real adicionado ainda.
 
 ## Regras
 

@@ -1,18 +1,14 @@
-# Revisoes
+# Reviews
 
 Esta pasta guarda revisoes periodicas do Second Brain.
 
-## Tipos
+## Estrutura
 
 - `daily/`
 - `weekly/`
 - `monthly/`
 - `quarterly/`
 
-## Modelo semanal
+## Estado inicial
 
-Use [[07-reviews/weekly/template-revisao-semanal]] como base para revisoes semanais.
-
-## Manual de uso
-
-- [[07-reviews/README|Manual de uso]]
+Nenhuma revisao real adicionada ainda.

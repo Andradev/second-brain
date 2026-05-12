@@ -1,8 +1,8 @@
 # Archive
 
-Esta pasta guarda conteudos antigos, inativos ou substituidos.
+Esta pasta guarda conteudos antigos, inativos, substituidos ou que precisam de revisao.
 
-## Subpastas
+## Estrutura
 
 - `old-structures/`
 - `inactive-projects/`
@@ -10,13 +10,6 @@ Esta pasta guarda conteudos antigos, inativos ou substituidos.
 - `old-outputs/`
 - `review-needed/`
 
-## Regras
+## Estado inicial
 
-- Nao apagar conteudo antigo sem permissao.
-- Registrar no log o motivo do arquivamento.
-- Manter links importantes quando necessario.
-- Usar `review-needed/` quando nao houver certeza se algo e real, simulado ou divergente.
-
-## Manual de uso
-
-- [[99-archive/README|Manual de uso]]
+Nenhum conteudo real adicionado ainda.

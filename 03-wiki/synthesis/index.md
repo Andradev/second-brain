@@ -2,6 +2,6 @@
 
 Use esta pasta para sinteses vivas sobre assuntos importantes e recorrentes.
 
-## Sinteses
+## Estado inicial
 
-Nenhum conteudo real classificado ainda.
+Nenhum conteudo real adicionado ainda.

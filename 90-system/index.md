@@ -1,21 +1,16 @@
-# Sistema
+# System
 
-Area tecnica do Second Brain.
+Esta pasta guarda regras internas, manuais, templates, prompts, schemas e automacoes do sistema.
 
-## Pastas
+## Estrutura
 
-- [[90-system/manuals/index|Manuais]]
-- [[90-system/templates/note-template|Templates]]
-- `schemas/`
+- `manuals/`
+- `templates/`
 - `prompts/`
+- `schemas/`
 - `automations/`
 - `agent-rules/`
 
-## Regras
+## Estado inicial
 
-- Nao misturar regras do sistema com notas pessoais.
-- Atualizar templates e manuais quando uma convencao duravel surgir.
-
-## Manual de uso
-
-- [[90-system/README|Manual de uso]]
+Sistema pronto para uso como template limpo.

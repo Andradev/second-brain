@@ -1,8 +1,8 @@
 # Domains
 
-Grandes areas da vida humana.
+Dominios organizam notas processadas por area da vida.
 
-## Areas
+## Dominios
 
 - [[02-domains/01-self/index|Self]]
 - [[02-domains/02-journal/index|Journal]]
@@ -17,10 +17,6 @@ Grandes areas da vida humana.
 - [[02-domains/11-media-culture/index|Media & Culture]]
 - [[02-domains/12-decisions-problems/index|Decisions & Problems]]
 
-## Regra
+## Estado inicial
 
-Dominios guardam contexto de vida. A wiki guarda conhecimento conectado.
-
-## Manual de uso
-
-- [[02-domains/README|Manual de uso]]
+Nenhum conteudo real adicionado ainda.

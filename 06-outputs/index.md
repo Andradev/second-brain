@@ -1,8 +1,8 @@
 # Outputs
 
-Esta pasta guarda saidas finais ou reutilizaveis geradas pela IA.
+Esta pasta guarda entregas finais geradas a partir de conteudo real.
 
-## Subpastas
+## Estrutura
 
 - `documents/`
 - `summaries/`
@@ -12,11 +12,6 @@ Esta pasta guarda saidas finais ou reutilizaveis geradas pela IA.
 - `reports/`
 - `presentations/`
 
-## Relatorios
+## Estado inicial
 
-- [[06-outputs/reports/relatorio-atualizacao-second-brain|Relatorio de atualizacao do Second Brain]]
-- [[06-outputs/reports/relatorio-limpeza-second-brain|Relatorio de limpeza do Second Brain]]
-
-## Manual de uso
-
-- [[06-outputs/README|Manual de uso]]
+Nenhum conteudo real adicionado ainda.
