@@ -9,6 +9,10 @@ Ele existe para capturar, organizar, conectar e sintetizar tudo que aprendo, pen
 - [[00-inbox/ideias-soltas]]
 - [[00-inbox/capturas-rapidas]]
 
+## Fontes brutas
+
+- [[01-raw/index]]
+
 ## Areas da vida
 
 - [[02-domains/01-self/index|Self]]
@@ -51,7 +55,6 @@ Ele existe para capturar, organizar, conectar e sintetizar tudo que aprendo, pen
 - [[90-system/manuals/index]]
 - [[AGENTS]]
 
-## Estrutura legada preservada
+## Manual de uso
 
-- [[wiki/index|Wiki antiga]]
-- `raw/processed/`
+- [[README|Manual de uso do vault]]

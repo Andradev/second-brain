@@ -6,3 +6,11 @@
 - Copiadas categorias herdadas de `wiki/` para a nova camada numerada sem apagar os arquivos originais.
 - Criadas paginas iniciais para conceitos e entidades usados pela nova arquitetura.
 - Pendencia: revisar links internos herdados que ainda apontam para `wiki/`.
+
+## [2026-05-11] lint | Limpeza de conteudo simulado
+
+- Removidos conceitos e entidades simulados criados a partir de exemplos.
+- Conteudo real da antiga pasta `wiki/` movido para `03-wiki/inbox/legacy-import/wiki/`.
+- Duplicatas classificadas removidas quando eram identicas ao legado importado.
+- Um arquivo divergente foi movido para `99-archive/review-needed/wiki-classified-leftovers/comparisons/`.
+- Regras da wiki atualizadas para impedir conceitos, entidades, sinteses e perguntas vazias.

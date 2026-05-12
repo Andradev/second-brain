@@ -34,6 +34,10 @@ Se mencionar estudo, conectar com learning.
 
 Se mencionar decisoes, conectar com decisions-problems.
 
+## Regra contra conteudo simulado
+
+Nao criar notas, conceitos, entidades, perguntas, sinteses, decisoes ou projetos nesta area a partir de exemplos. Criar conteudo somente quando houver nota real, fonte real, conteudo ja existente no vault ou pedido explicito do usuario.
+
 ## Exemplos
 
 - Registro de um dia importante.

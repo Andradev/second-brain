@@ -34,7 +34,11 @@ Se algo for regra de negocio, criar nota clara e objetiva.
 
 Se algo estiver ligado a frontend, conectar com learning.
 
-Se algo estiver ligado a Pulpito Web ou sistemas da empresa, conectar com projects.
+Se algo estiver ligado a um projeto real confirmado ou sistema da empresa registrado pelo usuario, conectar com projects.
+
+## Regra contra conteudo simulado
+
+Nao criar notas, conceitos, entidades, perguntas, sinteses, decisoes ou projetos nesta area a partir de exemplos. Criar conteudo somente quando houver nota real, fonte real, conteudo ja existente no vault ou pedido explicito do usuario.
 
 ## Exemplos
 

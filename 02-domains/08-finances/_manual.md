@@ -33,6 +33,10 @@ Deve registrar decisoes, metas, duvidas e riscos.
 
 Quando houver decisao financeira importante, conectar com decisions-problems.
 
+## Regra contra conteudo simulado
+
+Nao criar notas, conceitos, entidades, perguntas, sinteses, decisoes ou projetos nesta area a partir de exemplos. Criar conteudo somente quando houver nota real, fonte real, conteudo ja existente no vault ou pedido explicito do usuario.
+
 ## Exemplos
 
 - Planejamento de compra importante.

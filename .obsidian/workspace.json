@@ -4,17 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "ef2dbe386843c3e3",
+        "id": "f25be49cf01a727e",
         "type": "tabs",
         "children": [
           {
-            "id": "a33fbbfb73101086",
+            "id": "f5f809dcc947aecc",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "README.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "README"
             }
           }
         ]
@@ -171,51 +175,51 @@
   "left-ribbon": {
     "hiddenItems": {
       "switcher:Open quick switcher": false,
-      "graph:Open graph view": false,
       "canvas:Create new canvas": false,
+      "graph:Open graph view": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
       "bases:Create new base": false
     }
   },
-  "active": "a33fbbfb73101086",
+  "active": "f5f809dcc947aecc",
   "lastOpenFiles": [
-    "03-wiki/entities/davi.md",
-    "02-domains/09-spirituality-values/entities/davi.md",
-    "02-domains/09-spirituality-values/synthesis/o-que-ja-aprendi-sobre-davi.md",
-    "04-maps/mapa-espiritual.md",
-    "04-maps/mapa-de-projetos.md",
-    "04-maps/mapa-de-estudos.md",
-    "04-maps/mapa-da-minha-vida.md",
-    "02-domains/01-self/index.md",
-    "wiki/sources/adapta-myhub-ou-inner-ai-qual-a-melhor.md",
-    "03-wiki/comparisons/adapta-myhub-inner-ai-alternatives.md",
-    "00-inbox/index.md",
-    "02-domains/09-spirituality-values/projects/estudos-biblicos/index.md",
-    "02-domains/09-spirituality-values/concepts/obediencia.md",
-    "02-domains/09-spirituality-values/concepts/lideranca.md",
-    "02-domains/09-spirituality-values/concepts/arrependimento.md",
-    "01-raw/processed/6 Negócios de IA que Ainda Não Têm Concorrência.md",
-    "00-inbox/ideias-soltas.md",
-    "00-inbox/capturas-rapidas.md",
-    "index.md",
+    "00-inbox/README.md",
+    "01-raw/README.md",
+    "90-system/README.md",
+    "README.md",
+    "02-domains/05-projects-ideas/README.md",
+    "02-domains/README.md",
     "AGENTS.md",
-    "06-outputs/reports/relatorio-atualizacao-second-brain.md",
-    "90-system/manuals/inbox.md",
-    "90-system/manuals/domains.md",
-    "90-system/automations/index.md",
-    "90-system/templates/index.md",
-    "04-maps/index.md",
-    "05-projects/roblox-game/sources",
-    "05-projects/pulpito-web/sources",
-    "05-projects/pulpito-web/outputs",
-    "05-projects/roblox-game/outputs",
-    "05-projects/roblox-game/notes",
-    "05-projects/pulpito-web/notes",
-    "05-projects/estudos-frontend/outputs",
-    "05-projects/second-brain-system/sources",
-    "05-projects/faculdade-normatic/sources",
-    "05-projects/second-brain-system/outputs"
+    "06-outputs/reports/relatorio-documentacao-de-uso-second-brain.md",
+    "06-outputs/documents/guia-geral-de-uso-second-brain.md",
+    "99-archive/README.md",
+    "90-system/agent-rules/README.md",
+    "90-system/automations/README.md",
+    "90-system/prompts/README.md",
+    "90-system/schemas/README.md",
+    "90-system/templates/README.md",
+    "90-system/manuals/README.md",
+    "07-reviews/quarterly/README.md",
+    "07-reviews/monthly/README.md",
+    "07-reviews/weekly/README.md",
+    "07-reviews/daily/README.md",
+    "07-reviews/README.md",
+    "06-outputs/presentations/README.md",
+    "06-outputs/reports/README.md",
+    "06-outputs/emails/README.md",
+    "06-outputs/prompts/README.md",
+    "06-outputs/study-guides/README.md",
+    "99-archive/review-needed/wiki-classified-leftovers/comparisons",
+    "99-archive/review-needed/wiki-classified-leftovers",
+    "03-wiki/inbox/legacy-import/wiki/sources",
+    "03-wiki/inbox/legacy-import/wiki/comparisons",
+    "03-wiki/inbox/legacy-import/wiki/entities",
+    "03-wiki/inbox/legacy-import/wiki/concepts",
+    "03-wiki/inbox/legacy-import/wiki",
+    "01-raw/inbox/legacy-import/raw/processed",
+    "01-raw/inbox/legacy-import/raw/assets",
+    "01-raw/inbox/legacy-import/raw"
   ]
 }

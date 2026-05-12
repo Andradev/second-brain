@@ -40,6 +40,10 @@ Para cada pessoa importante, registrar:
 
 Conectar pessoas com projetos, trabalho, igreja, faculdade ou diario quando necessario.
 
+## Regra contra conteudo simulado
+
+Nao criar notas, conceitos, entidades, perguntas, sinteses, decisoes ou projetos nesta area a partir de exemplos. Criar conteudo somente quando houver nota real, fonte real, conteudo ja existente no vault ou pedido explicito do usuario.
+
 ## Exemplos
 
 - Nota sobre uma conversa importante.

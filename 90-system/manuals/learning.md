@@ -4,15 +4,19 @@
 
 Manual operacional resumido para [[02-domains/03-learning/index|Learning]].
 
+## Regra contra conteudo simulado
+
+Nao criar tecnologias, cursos, trilhas, projetos ou conceitos apenas porque apareceram como exemplo em um prompt ou manual.
+
+So criar esse conteudo quando houver nota real, fonte real ou pedido explicito do usuario.
+
 ## Processamento
 
-Transformar estudos em conceitos reutilizaveis.
+Transformar estudos reais em conceitos reutilizaveis.
 
-Conectar cursos, aulas e faculdade com projetos reais sempre que houver aplicacao pratica.
+Conectar cursos, aulas e faculdade com projetos reais somente quando houver projeto confirmado ou conteudo real suficiente.
 
 ## Conexoes frequentes
 
-- [[05-projects/pulpito-web/index|Pulpito Web]]
-- [[05-projects/estudos-frontend/index|Estudos Frontend]]
+- [[02-domains/03-learning/index|Learning]]
 - [[04-maps/mapa-de-estudos]]
-- [[03-wiki/concepts/aprendizagem-pratica]]

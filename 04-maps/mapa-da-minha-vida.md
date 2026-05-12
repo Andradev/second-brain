@@ -1,6 +1,6 @@
 # Mapa da minha vida
 
-Visao geral das areas da vida, objetivos, valores, projetos, decisoes e direcao.
+Este mapa sera atualizado conforme conteudos reais forem adicionados.
 
 ## Areas principais
 
@@ -17,12 +17,14 @@ Visao geral das areas da vida, objetivos, valores, projetos, decisoes e direcao.
 - [[02-domains/11-media-culture/index|Media & Culture]]
 - [[02-domains/12-decisions-problems/index|Decisions & Problems]]
 
-## Projetos ativos
+## Objetivos
 
-- [[05-projects/index]]
+Nenhum conteudo real adicionado ainda.
 
-## Perguntas de revisao
+## Projetos
 
-- O que esta pedindo mais atencao agora?
-- Quais areas estao acumulando notas sem processamento?
-- Quais decisoes precisam ser revisitadas?
+Nenhum conteudo real adicionado ainda.
+
+## Decisoes
+
+Nenhum conteudo real adicionado ainda.

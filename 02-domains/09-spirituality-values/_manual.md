@@ -44,6 +44,12 @@ Ao receber uma nova nota nesta area:
 12. Se houver conexao com valores pessoais, criar link com self.
 13. Se surgir pergunta importante, registrar em `questions/`.
 
+## Regra contra conteudo simulado
+
+Nao criar notas, conceitos, entidades, perguntas, sinteses, decisoes ou projetos nesta area a partir de exemplos. Criar conteudo somente quando houver nota real, fonte real, conteudo ja existente no vault ou pedido explicito do usuario.
+
+O exemplo abaixo e apenas conceitual. Ele nao autoriza criar arquivos reais sem fonte real.
+
 ## Exemplos
 
 Se a nota falar sobre Davi, Saul e lideranca, atualizar:

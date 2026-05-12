@@ -15,3 +15,7 @@ Area tecnica do Second Brain.
 
 - Nao misturar regras do sistema com notas pessoais.
 - Atualizar templates e manuais quando uma convencao duravel surgir.
+
+## Manual de uso
+
+- [[90-system/README|Manual de uso]]
