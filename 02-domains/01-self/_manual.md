@@ -30,6 +30,10 @@ Ao receber uma nota nesta area, identificar valores, padroes de comportamento, o
 
 Criar links com journal, spirituality-values, learning, work-career e decisions-problems quando necessario.
 
+## Regra contra conteudo simulado
+
+Nao criar notas, conceitos, entidades, perguntas, sinteses, decisoes ou projetos nesta area a partir de exemplos. Criar conteudo somente quando houver nota real, fonte real, conteudo ja existente no vault ou pedido explicito do usuario.
+
 ## Exemplos
 
 - Reflexao sobre meus valores principais.

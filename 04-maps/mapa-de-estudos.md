@@ -1,22 +1,23 @@
 # Mapa de estudos
 
-Visao dos estudos, cursos, dificuldades, tecnologias, progresso e proximos passos.
+Este mapa sera atualizado conforme conteudos reais de estudo forem adicionados.
 
-## Areas relacionadas
+## Estudos atuais
 
-- [[02-domains/03-learning/index|Learning]]
-- [[05-projects/estudos-frontend/index|Estudos Frontend]]
-- [[05-projects/faculdade-normatic/index|Faculdade Normatic]]
+Nenhum conteudo real adicionado ainda.
 
-## Conceitos
+## Cursos e aulas
 
-- [[03-wiki/concepts/aprendizagem-pratica|Aprendizagem pratica]]
-- [[03-wiki/concepts/agentic-coding-workflow|Agentic Coding Workflow]]
+Nenhum conteudo real adicionado ainda.
 
-## Projetos praticos
+## Tecnologias
 
-- [[05-projects/pulpito-web/index|Pulpito Web]]
+Nenhum conteudo real adicionado ainda.
 
-## Lacunas
+## Dificuldades
 
-- Aguardando notas de estudo processadas.
+Nenhum conteudo real adicionado ainda.
+
+## Proximos passos
+
+Nenhum conteudo real adicionado ainda.

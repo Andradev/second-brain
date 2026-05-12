@@ -42,11 +42,15 @@ A IA deve transformar estudos em conceitos reutilizaveis.
 
 Se uma nota falar sobre JavaScript, React, TypeScript ou Laravel, criar ou atualizar paginas em `concepts/` e, quando o conceito for global, em `03-wiki/concepts/`.
 
-Se uma nota estiver ligada ao projeto Pulpito Web, conectar com `05-projects/pulpito-web/`.
+Se uma nota estiver ligada a um projeto real confirmado, conectar com o projeto correspondente em `05-projects/`.
 
 Se aparecer uma dificuldade recorrente, registrar em `questions/`.
 
 Se aparecer um aprendizado importante, atualizar `synthesis/`.
+
+## Regra contra conteudo simulado
+
+Nao criar notas, conceitos, entidades, perguntas, sinteses, decisoes ou projetos nesta area a partir de exemplos. Criar conteudo somente quando houver nota real, fonte real, conteudo ja existente no vault ou pedido explicito do usuario.
 
 ## Exemplos
 

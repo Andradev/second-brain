@@ -16,3 +16,7 @@ Entrada livre do Second Brain.
 ## Regra
 
 Capture primeiro. Organize depois.
+
+## Manual de uso
+
+- [[00-inbox/README|Manual de uso]]

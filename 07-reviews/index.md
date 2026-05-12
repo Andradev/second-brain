@@ -12,3 +12,7 @@ Esta pasta guarda revisoes periodicas do Second Brain.
 ## Modelo semanal
 
 Use [[07-reviews/weekly/template-revisao-semanal]] como base para revisoes semanais.
+
+## Manual de uso
+
+- [[07-reviews/README|Manual de uso]]

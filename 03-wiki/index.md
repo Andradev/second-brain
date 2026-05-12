@@ -2,12 +2,13 @@
 
 Esta e a camada de conhecimento estruturado e conectado do Second Brain.
 
-Ela deve ser mantida pela IA e usada para conceitos, entidades, fontes, sinteses, comparacoes e perguntas duraveis.
+Ela existe para conceitos, entidades, fontes, sinteses, comparacoes e perguntas duraveis criadas a partir de conteudo real.
 
 ## Navegacao
 
 - [[03-wiki/overview|Overview]]
 - [[03-wiki/log|Log da wiki]]
+- `inbox/`
 - `concepts/`
 - `entities/`
 - `sources/`
@@ -15,34 +16,31 @@ Ela deve ser mantida pela IA e usada para conceitos, entidades, fontes, sinteses
 - `synthesis/`
 - `questions/`
 
-## Conteudo migrado
+## Inbox da wiki
 
-As categorias antigas de `wiki/` foram copiadas para esta estrutura sem apagar a origem:
+- `03-wiki/inbox/`: paginas que precisam de revisao antes de classificacao definitiva.
+- `03-wiki/inbox/legacy-import/wiki/`: conteudo real importado da antiga pasta `wiki/`.
 
-- `wiki/sources/` -> `03-wiki/sources/`
-- `wiki/concepts/` -> `03-wiki/concepts/`
-- `wiki/entities/` -> `03-wiki/entities/`
-- `wiki/comparisons/` -> `03-wiki/comparisons/`
+## Conceitos
 
-## Conceitos iniciais
+Nenhum conteudo real classificado ainda.
 
-- [[03-wiki/concepts/ai-second-brain|AI Second Brain]]
-- [[03-wiki/concepts/llm-wiki-pattern|LLM Wiki Pattern]]
-- [[03-wiki/concepts/obsidian-as-ai-frontend|Obsidian como frontend de IA]]
-- [[03-wiki/concepts/aprendizagem-pratica|Aprendizagem pratica]]
-- [[03-wiki/concepts/obediencia|Obediencia]]
-- [[03-wiki/concepts/lideranca|Lideranca]]
+## Entidades
 
-## Entidades iniciais
+Nenhum conteudo real classificado ainda.
 
-- [[03-wiki/entities/obsidian|Obsidian]]
-- [[03-wiki/entities/codex|Codex]]
-- [[03-wiki/entities/andrej-karpathy|Andrej Karpathy]]
-- [[03-wiki/entities/davi|Davi]]
-- [[03-wiki/entities/pulpito-web|Pulpito Web]]
+## Sinteses
+
+Nenhum conteudo real classificado ainda.
 
 ## Regras rapidas
 
-- Antes de criar uma pagina nova, procurar se ja existe algo parecido.
-- Indicar fontes originais sempre que possivel.
-- Atualizar este indice quando criar conceito, entidade, sintese ou comparacao relevante.
+- Nao criar conceitos vazios.
+- Nao criar entidades vazias.
+- Nao criar sinteses vazias.
+- Nao criar perguntas ficticias.
+- So criar pagina de wiki a partir de conteudo real.
+
+## Manual de uso
+
+- [[03-wiki/README|Manual de uso]]

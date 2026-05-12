@@ -1,18 +1,23 @@
 # Mapa profissional
 
-Visao da carreira, trabalho, habilidades, responsabilidades, pontos de evolucao e projetos profissionais.
+Este mapa sera atualizado conforme conteudos reais de trabalho e carreira forem adicionados.
 
-## Areas relacionadas
+## Trabalho atual
 
-- [[02-domains/04-work-career/index|Work & Career]]
-- [[02-domains/03-learning/index|Learning]]
-- [[02-domains/12-decisions-problems/index|Decisions & Problems]]
+Nenhum conteudo real adicionado ainda.
 
-## Projetos e entidades
+## Regras de negocio
 
-- [[05-projects/pulpito-web/index|Pulpito Web]]
+Nenhum conteudo real adicionado ainda.
 
-## Pontos de atencao
+## Aprendizados profissionais
 
-- Regras de negocio devem ser registradas com clareza.
-- Decisoes tecnicas relevantes devem ir para decisions.
+Nenhum conteudo real adicionado ainda.
+
+## Decisoes profissionais
+
+Nenhum conteudo real adicionado ainda.
+
+## Proximos passos
+
+Nenhum conteudo real adicionado ainda.

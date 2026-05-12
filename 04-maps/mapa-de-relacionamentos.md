@@ -1,19 +1,19 @@
 # Mapa de relacionamentos
 
-Visao de pessoas importantes, contatos, conexoes, responsabilidades e historico relevante.
+Este mapa sera atualizado conforme pessoas, contatos e conversas reais forem adicionados.
 
-## Area principal
+## Pessoas importantes
 
-- [[02-domains/06-relationships-crm/index|Relationships & CRM]]
+Nenhum conteudo real adicionado ainda.
 
-## Conexoes comuns
+## Conversas importantes
 
-- Trabalho e carreira
-- Igreja e espiritualidade
-- Faculdade e professores
-- Projetos e stakeholders
-- Familia e amigos
+Nenhum conteudo real adicionado ainda.
 
-## Pendencias
+## Contextos
 
-- Aguardando primeiras entidades de pessoas processadas.
+Nenhum conteudo real adicionado ainda.
+
+## Proximos passos
+
+Nenhum conteudo real adicionado ainda.

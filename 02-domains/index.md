@@ -20,3 +20,7 @@ Grandes areas da vida humana.
 ## Regra
 
 Dominios guardam contexto de vida. A wiki guarda conhecimento conectado.
+
+## Manual de uso
+
+- [[02-domains/README|Manual de uso]]

@@ -16,7 +16,14 @@ Area para estudos, cursos, faculdade, programacao, tecnologia e aprendizados for
 - `decisions/`
 - `projects/`
 
-## Destaques
+## Notas
 
-- Conectar aprendizados praticos com [[05-projects/pulpito-web/index|Pulpito Web]] quando fizer sentido.
-- Aguardando notas processadas.
+Nenhum conteudo real adicionado ainda.
+
+## Conceitos
+
+Nenhum conteudo real adicionado ainda.
+
+## Perguntas
+
+Nenhum conteudo real adicionado ainda.

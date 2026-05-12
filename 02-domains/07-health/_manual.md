@@ -35,6 +35,10 @@ Se houver informacao sensivel, manter linguagem cuidadosa.
 
 Pode ajudar a identificar padroes e sugerir que o usuario procure profissional quando necessario.
 
+## Regra contra conteudo simulado
+
+Nao criar notas, conceitos, entidades, perguntas, sinteses, decisoes ou projetos nesta area a partir de exemplos. Criar conteudo somente quando houver nota real, fonte real, conteudo ja existente no vault ou pedido explicito do usuario.
+
 ## Exemplos
 
 - Registro de sono e energia.

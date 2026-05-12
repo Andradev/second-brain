@@ -10,3 +10,7 @@ Mapas de visao geral do Second Brain.
 - [[04-maps/mapa-profissional]]
 - [[04-maps/mapa-de-projetos]]
 - [[04-maps/mapa-de-relacionamentos]]
+
+## Manual de uso
+
+- [[04-maps/README|Manual de uso]]

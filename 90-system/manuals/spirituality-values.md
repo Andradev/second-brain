@@ -4,25 +4,23 @@
 
 Manual operacional resumido para a area [[02-domains/09-spirituality-values/index|Spirituality & Values]].
 
+## Regra contra conteudo simulado
+
+Nao criar personagens biblicos, temas, devocionais, estudos, perguntas ou sinteses apenas porque apareceram como exemplo em um prompt ou manual.
+
+So criar esse conteudo quando houver fonte real, nota real ou pedido explicito do usuario.
+
 ## Processamento
 
-Ao processar uma nota espiritual:
+Ao processar uma nota espiritual real:
 
-1. Identificar personagens biblicos.
-2. Identificar temas espirituais.
-3. Identificar passagens biblicas.
+1. Identificar personagens biblicos citados na fonte ou nota.
+2. Identificar temas espirituais citados.
+3. Identificar passagens biblicas mencionadas.
 4. Identificar aplicacoes praticas.
-5. Atualizar entidades, conceitos, perguntas e sinteses.
+5. Atualizar entidades, conceitos, perguntas e sinteses somente quando houver base real.
 6. Conectar com diario, self e mapas quando necessario.
 
-## Consultas importantes
+## Consultas
 
-Para responder "O que eu ja aprendi sobre Davi?", consultar:
-
-- [[02-domains/09-spirituality-values/entities/davi]]
-- [[02-domains/09-spirituality-values/synthesis/o-que-ja-aprendi-sobre-davi]]
-- [[03-wiki/entities/davi]]
-- [[03-wiki/concepts/obediencia]]
-- [[03-wiki/concepts/lideranca]]
-- `01-raw/bible/`
-- `01-raw/videos/`
+Antes de responder uma pergunta espiritual, consultar notas e fontes reais do dominio, `03-wiki/` e `01-raw/bible/` quando existirem.

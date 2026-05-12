@@ -1,20 +1,25 @@
 # Projetos
 
-Esta pasta guarda projetos ativos ou provaveis.
+Esta pasta guarda projetos confirmados ou ideias que ainda precisam ser formalizadas.
 
-Projeto e algo com objetivo, andamento, decisoes, tarefas e entregaveis.
+## Estrutura
 
-## Projetos iniciais
+- `inbox/`: ideias que talvez virem projetos, mas ainda nao foram formalizadas.
+- `active/`: projetos ativos criados ou confirmados pelo usuario.
+- `paused/`: projetos pausados.
+- `completed/`: projetos concluidos.
+- `archived/`: projetos antigos ou abandonados.
 
-- [[05-projects/pulpito-web/index|Pulpito Web]]
-- [[05-projects/second-brain-system/index|Second Brain System]]
-- [[05-projects/roblox-game/index|Roblox Game]]
-- [[05-projects/faculdade-normatic/index|Faculdade Normatic]]
-- [[05-projects/estudos-frontend/index|Estudos Frontend]]
+## Projetos ativos
+
+Nenhum conteudo real adicionado ainda.
 
 ## Regras
 
-- Ideias ainda soltas ficam em [[02-domains/05-projects-ideas/index|Projects & Ideas]].
-- Projetos com execucao ativa ficam aqui.
-- Toda decisao relevante deve entrar em `decisions.md`.
-- Toda tarefa relevante deve entrar em `tasks.md`.
+- Nao criar projeto automaticamente so porque ele foi citado em exemplo, prompt ou manual.
+- Se o usuario mencionar um projeto em uma nota, registrar primeiro em `05-projects/inbox/` ou em [[02-domains/05-projects-ideas/index|Projects & Ideas]].
+- So criar projeto ativo em `05-projects/active/` quando o usuario pedir explicitamente ou confirmar.
+
+## Manual de uso
+
+- [[05-projects/README|Manual de uso]]

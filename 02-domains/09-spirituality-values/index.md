@@ -6,10 +6,6 @@ Area para fe, Biblia, devocionais, estudos biblicos, pregacoes, oracao, igreja, 
 
 - [[02-domains/09-spirituality-values/_manual|Manual da area]]
 - [[02-domains/09-spirituality-values/log|Log da area]]
-- [[02-domains/09-spirituality-values/entities/davi|Davi]]
-- [[02-domains/09-spirituality-values/concepts/obediencia|Obediencia]]
-- [[02-domains/09-spirituality-values/concepts/lideranca|Lideranca]]
-- [[02-domains/09-spirituality-values/synthesis/o-que-ja-aprendi-sobre-davi|O que ja aprendi sobre Davi]]
 - `inbox/`
 - `notes/`
 - `sources/`
@@ -20,7 +16,18 @@ Area para fe, Biblia, devocionais, estudos biblicos, pregacoes, oracao, igreja, 
 - `decisions/`
 - `projects/`
 
-## Destaques
+## Notas
 
-- Ponto inicial para estudos biblicos, devocionais e valores.
-- As paginas de exemplo sobre Davi existem como estrutura inicial e devem ser preenchidas a partir de fontes reais.
+Nenhum conteudo real adicionado ainda.
+
+## Conceitos
+
+Nenhum conteudo real adicionado ainda.
+
+## Entidades
+
+Nenhum conteudo real adicionado ainda.
+
+## Sinteses
+
+Nenhum conteudo real adicionado ainda.
