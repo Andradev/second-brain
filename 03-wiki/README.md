@@ -60,3 +60,17 @@ Serve para guardar conhecimento reutilizável, conectável e durável, sem ficar
 ## Resumo rápido
 
 Use `03-wiki/` para conhecimento que precisa ser lembrado, conectado e reutilizado.
+
+## Imports legados
+
+Imports legados sao conteudos antigos trazidos de estruturas anteriores do vault.
+
+Eles devem ser auditados antes de serem incorporados ao sistema principal.
+
+Conteudo importado pode passar por tres estados:
+
+1. importado
+2. classificado
+3. processado/integrado
+
+Se houver duvida, o conteudo deve ir para `review-needed`.

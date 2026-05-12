@@ -61,6 +61,20 @@ Nao deve existir `raw/` solto na raiz.
 
 Nao deve existir `wiki/` solto na raiz.
 
+## Imports legados
+
+Imports legados sao conteudos antigos trazidos de estruturas anteriores do vault.
+
+Eles devem ser auditados antes de serem incorporados ao sistema principal.
+
+Conteudo importado pode passar por tres estados:
+
+1. importado
+2. classificado
+3. processado/integrado
+
+Se houver duvida, o conteudo deve ir para `review-needed`.
+
 ## Fluxo profissional
 
 O fluxo principal do sistema e:

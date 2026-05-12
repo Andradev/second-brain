@@ -80,3 +80,17 @@ Não precisa organizar perfeitamente na hora da captura.
 O importante é capturar.
 
 Depois, a IA ajuda a organizar.
+
+## Imports legados
+
+Imports legados sao conteudos antigos trazidos de estruturas anteriores do vault.
+
+Eles devem ser auditados antes de serem incorporados ao sistema principal.
+
+Conteudo importado pode passar por tres estados:
+
+1. importado
+2. classificado
+3. processado/integrado
+
+Se houver duvida, o conteudo deve ir para `review-needed`.

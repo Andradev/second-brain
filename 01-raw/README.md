@@ -61,3 +61,17 @@ Serve para manter a origem intacta. A fonte fica preservada aqui enquanto a IA c
 ## Resumo rápido
 
 Use `01-raw/` quando o conteúdo veio de uma fonte externa e precisa ser preservado.
+
+## Imports legados
+
+Imports legados sao conteudos antigos trazidos de estruturas anteriores do vault.
+
+Eles devem ser auditados antes de serem incorporados ao sistema principal.
+
+Conteudo importado pode passar por tres estados:
+
+1. importado
+2. classificado
+3. processado/integrado
+
+Se houver duvida, o conteudo deve ir para `review-needed`.

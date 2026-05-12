@@ -26,9 +26,12 @@ Categorias:
 - `images/`
 - `assets/`
 
-## Legado importado
+## Imports legados
 
-- `inbox/legacy-import/raw/`: conteudo real que estava na antiga pasta `raw/`.
+- `imports/legacy/raw-originals/`: originais preservados de importacoes antigas.
+- `imports/legacy/manifest.md`: auditoria dos arquivos importados.
+- `imports/legacy/review-needed/`: fontes antigas que precisam de revisao manual.
+- Fontes classificadas saem de `imports/legacy/` para o `processed/` da categoria correta quando ja foram processadas com seguranca.
 
 ## Regras
 

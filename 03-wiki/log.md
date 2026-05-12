@@ -14,3 +14,11 @@
 - Duplicatas classificadas removidas quando eram identicas ao legado importado.
 - Um arquivo divergente foi movido para `99-archive/review-needed/wiki-classified-leftovers/comparisons/`.
 - Regras da wiki atualizadas para impedir conceitos, entidades, sinteses e perguntas vazias.
+
+## [2026-05-12] import | Processamento dos imports legados
+
+- Auditado o lote em `03-wiki/inbox/legacy-import/wiki/`.
+- Integrados 10 registros de fonte, 11 conceitos, 17 entidades, 2 comparacoes e 1 sintese.
+- Preservados `index.md`, `log.md` e `overview.md` antigos em `03-wiki/imports/legacy/wiki-originals/`.
+- Criado manifesto em [[03-wiki/imports/legacy/manifest]].
+- Nenhum arquivo foi movido para `review-needed` nesta rodada.

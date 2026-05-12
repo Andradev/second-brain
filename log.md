@@ -35,3 +35,12 @@ Este arquivo registra mudancas importantes feitas no sistema.
 - Guia geral criado em [[06-outputs/documents/guia-geral-de-uso-second-brain]].
 - Relatório criado em [[06-outputs/reports/relatorio-documentacao-de-uso-second-brain]].
 - Observação: alteração limitada a documentação de uso; nenhum conteúdo real, projeto, conceito, entidade, fonte ou síntese simulada foi criado.
+
+## 2026-05-12
+
+- Branch de trabalho usada: `feat/processar-imports-legados`.
+- Imports legados de `01-raw/inbox/legacy-import/raw/` auditados e preservados em `01-raw/imports/legacy/raw-originals/`.
+- Copias processadas classificadas em `01-raw/videos/processed/` e `01-raw/articles/processed/`.
+- Wiki legada de `03-wiki/inbox/legacy-import/wiki/` auditada e integrada em `03-wiki/sources/`, `03-wiki/concepts/`, `03-wiki/entities/`, `03-wiki/comparisons/` e `03-wiki/synthesis/`.
+- Manifests criados em [[01-raw/imports/legacy/manifest]] e [[03-wiki/imports/legacy/manifest]].
+- Relatorio criado em [[06-outputs/reports/relatorio-processamento-imports-legados]].
