@@ -1,105 +1,278 @@
-# LLM Wiki Schema
+# AGENTS.md
 
-This Obsidian vault follows Andrej Karpathy's LLM Wiki pattern: raw sources are preserved, the wiki is maintained by the LLM, and this file defines the operating conventions.
+## Proposito do Second Brain
 
-## Architecture
+Este vault e um Second Brain Universal com IA.
 
-- `raw/` is the immutable source collection. Read from it, but do not modify, rename, or delete source files unless the user explicitly asks.
-- `raw/assets/` is for locally downloaded images and attachments referenced by raw sources.
-- `wiki/` is the LLM-maintained knowledge layer. Create, update, cross-link, and reconcile markdown pages here.
-- `AGENTS.md` is the schema and workflow document. Update it only when the user asks to evolve the wiki conventions or when a durable convention has clearly emerged.
+Ele existe para capturar, organizar, conectar e sintetizar o conhecimento pessoal do usuario ao longo da vida.
 
-## Wiki Map
+O sistema deve reunir notas soltas, estudos, aulas, videos, devocionais, diario pessoal, trabalho, faculdade, projetos, ideias, decisoes e fontes brutas.
 
-- `wiki/index.md` is the content-oriented catalog. Read it first when answering questions, then drill into relevant pages.
-- `wiki/log.md` is the append-only chronological record of setup work, ingests, queries, and lint passes.
-- `wiki/overview.md` is the high-level orientation page for the wiki.
-- `wiki/synthesis.md` is the evolving cross-source synthesis.
-- `wiki/sources/` contains one summary page per ingested source.
-- `wiki/entities/` contains pages for people, organizations, projects, places, and other named entities.
-- `wiki/concepts/` contains pages for concepts, themes, and recurring ideas.
-- `wiki/comparisons/` contains comparison tables, contrastive analyses, and durable query outputs that compare multiple things.
+A IA deve transformar essas entradas em conhecimento estruturado, conectado e reutilizavel.
 
-## Naming And Links
+## Principios centrais
 
-- Use descriptive, lowercase, hyphenated filenames: `example-source-title.md`, `example-concept.md`.
-- Use Obsidian links for wiki pages, including paths when helpful: `[[wiki/concepts/example-concept|Example Concept]]`.
-- Prefer stable source references using vault-relative paths such as `raw/example-source.md`.
-- Do not invent facts. Mark unknowns, open questions, and data gaps directly.
+1. O usuario captura de forma simples.
+2. A IA organiza de forma estruturada.
+3. Fontes originais devem ser preservadas.
+4. O conhecimento deve ser conectado com links internos.
+5. A wiki deve ser viva e atualizada.
+6. Toda area importante deve ter manual proprio.
+7. Toda alteracao relevante deve ser registrada em log.md.
+8. O sistema deve crescer sem virar bagunca.
+9. O vault deve favorecer clareza, reutilizacao e revisao.
+10. A IA deve criar contexto, nao apenas armazenar texto.
 
-## Page Conventions
+## Estrutura principal
 
-Source summary pages should generally include:
+- `00-inbox/`: entrada livre e rapida para capturas ainda caoticas.
+- `01-raw/`: fontes brutas e originais.
+- `02-domains/`: grandes areas da vida humana.
+- `03-wiki/`: conhecimento estruturado e conectado.
+- `04-maps/`: mapas de navegacao e visao geral.
+- `05-projects/`: projetos ativos.
+- `06-outputs/`: saidas finais geradas pela IA.
+- `07-reviews/`: revisoes periodicas.
+- `90-system/`: sistema interno, manuais, templates e regras.
+- `99-archive/`: conteudo arquivado, antigo ou substituido.
 
-- Source path
-- Processed date
-- Short summary
-- Key claims or observations
-- Relevant entities
-- Relevant concepts
-- Contradictions, tensions, or updates to prior claims
-- Open questions
+## Compatibilidade com estrutura legada
 
-For YouTube videos saved through the Obsidian Web Clipper, source summary pages should include YAML frontmatter with a `channel` field. Pull the channel name from the clipped source metadata or page content when available; if it is missing but the YouTube URL is present, look up the video page and use the channel name from YouTube. Do not invent the channel name; mark it as `unknown` and list it under open questions if it cannot be verified.
+Este vault nasceu com a estrutura Karpathy/LLM Wiki em `raw/` e `wiki/`.
 
-Entity and concept pages should generally include:
+- `raw/` e `wiki/` devem ser preservados.
+- Nao apagar, renomear ou mover arquivos dessas pastas sem pedido explicito do usuario.
+- Novos fluxos devem preferir `01-raw/` e `03-wiki/`.
+- Quando necessario, use os conteudos antigos como fontes de contexto e copie ou referencie o que for util para a nova arquitetura.
+- Para consultas, leia primeiro `index.md`; se a pergunta envolver conhecimento ja processado, consulte tambem `03-wiki/index.md` e, quando relevante, a antiga `wiki/index.md`.
 
-- One-line definition or description
-- Current synthesis
-- Supporting sources
-- Related pages
-- Open questions
+## Fluxo profissional
 
-## Index Maintenance
+O fluxo principal do sistema e:
 
-Keep `wiki/index.md` organized by category. Each listed page should have a link and a one-line description. Add metadata only when it helps navigation, such as processed date or source count.
+Capturar -> Classificar -> Processar -> Conectar -> Sintetizar -> Revisar -> Reutilizar
 
-## Log Format
+1. Capturar: o usuario joga uma ideia em `00-inbox/`.
+2. Classificar: a IA identifica dominio principal, dominios secundarios, conceitos, entidades e projetos relacionados.
+3. Processar: a IA cria uma nota limpa no local correto.
+4. Conectar: a IA cria links internos com conceitos, entidades, projetos, decisoes e fontes.
+5. Sintetizar: a IA atualiza paginas de sintese quando um tema se torna recorrente.
+6. Revisar: a IA identifica padroes, lacunas, notas orfas e proximos passos.
+7. Reutilizar: o usuario consulta o proprio conhecimento acumulado para estudar, decidir e construir.
 
-Append entries to `wiki/log.md` with this prefix format:
+## Regras de seguranca
 
-```md
-## [YYYY-MM-DD] type | Title
+1. Nao apagar nenhum arquivo existente.
+2. Nao sobrescrever arquivos existentes sem preservar ou mesclar o conteudo util.
+3. Se uma pasta ja existir, manter a pasta e complementar a estrutura.
+4. Fontes brutas em `01-raw/` sao fontes originais e nao devem ser reescritas.
+5. Se houver duvida sobre classificacao, manter em `00-inbox/para-processar/` e registrar a duvida.
+6. Se uma nota tocar em mais de uma area, escolher uma area principal e criar links cruzados.
+
+## Regras de processamento
+
+Ao processar uma nova nota:
+
+1. Ler o conteudo.
+2. Identificar o tipo da nota.
+3. Identificar o dominio principal.
+4. Identificar dominios secundarios.
+5. Identificar conceitos.
+6. Identificar entidades.
+7. Identificar projetos relacionados.
+8. Criar ou atualizar nota processada no local correto.
+9. Criar links internos com `[[wikilinks]]`.
+10. Atualizar `index.md` da area.
+11. Atualizar `log.md` da area.
+12. Atualizar `03-wiki/` quando houver conceito ou entidade relevante.
+13. Atualizar `synthesis/` quando o tema for recorrente.
+14. Registrar duvidas em `questions/`.
+15. Preservar a fonte original.
+
+## Regras para classificacao
+
+- Pensamento rapido: `00-inbox/`.
+- Fonte original: `01-raw/`.
+- Area da vida: `02-domains/`.
+- Conceito reutilizavel: `03-wiki/concepts/`.
+- Pessoa, personagem, empresa, ferramenta, lugar ou projeto: `03-wiki/entities/`.
+- Visao geral: `04-maps/`.
+- Projeto ativo: `05-projects/`.
+- Saida final: `06-outputs/`.
+- Revisao: `07-reviews/`.
+- Conteudo antigo: `99-archive/`.
+
+## Regras de links
+
+Use links internos no formato `[[nome-do-conceito]]`.
+
+Sempre que possivel, conecte:
+
+- Nota com conceito.
+- Conceito com entidade.
+- Entidade com projeto.
+- Projeto com decisao.
+- Fonte com sintese.
+- Diario com aprendizado.
+- Estudo com projeto pratico.
+- Devocional com personagem biblico.
+- Trabalho com regra de negocio.
+- Ideia com possivel projeto.
+
+Exemplos:
+
+- Uma nota sobre Davi deve conectar `[[davi]]`, `[[obediencia]]`, `[[lideranca]]`, `[[arrependimento]]` e estudos biblicos relacionados.
+- Uma nota sobre React deve conectar `[[react]]`, `[[javascript]]`, `[[typescript]]`, `[[frontend]]` e projetos que usam React.
+- Uma nota sobre Pulpito Web deve conectar `[[pulpito-web]]`, `[[laravel]]`, `[[mysql]]`, `[[api-rest]]` e `[[requisitos-de-software]]`.
+
+## Regras de escrita
+
+- Escrever em portugues do Brasil.
+- Usar Markdown limpo.
+- Usar titulos claros.
+- Usar listas quando ajudar.
+- Usar nomes de arquivos em kebab-case.
+- Evitar duplicidade.
+- Ser claro e pratico.
+- Nao inventar informacoes que nao estao nas fontes.
+- Quando fizer inferencia, deixar claro.
+
+## Frontmatter padrao
+
+Todas as notas processadas devem usar este frontmatter:
+
+```yaml
+---
+title: ""
+type: "note"
+domain: ""
+status: "processed"
+created: YYYY-MM-DD
+updated: YYYY-MM-DD
+source_type: ""
+related: []
+tags: []
+---
 ```
 
-Use these log types:
+## Tipos possiveis
 
-- `setup`
-- `ingest`
-- `query`
-- `lint`
+`type` pode ser:
 
-Each entry should briefly state what changed, which pages were touched, and any follow-up questions.
+- `note`
+- `source`
+- `concept`
+- `entity`
+- `synthesis`
+- `question`
+- `decision`
+- `project`
+- `review`
+- `output`
+- `manual`
 
-## Workflows
+`status` pode ser:
 
-### Ingest
+- `inbox`
+- `processing`
+- `processed`
+- `reviewed`
+- `archived`
 
-When the user asks to ingest a source:
+`source_type` pode ser:
 
-1. Read the new source from `raw/`.
-2. Inspect local images from `raw/assets/` when they are relevant.
-3. Create or update the matching page in `wiki/sources/`.
-4. Update related entity, concept, comparison, overview, and synthesis pages as needed.
-5. Cross-link any wiki pages generated or updated to the original source page
-6. Update `wiki/index.md`.
-7. Append an `ingest` entry to `wiki/log.md`.
-8. Move the source file from the root raw/ directory to raw/processed
+- `journal`
+- `video`
+- `article`
+- `book`
+- `class`
+- `work`
+- `bible`
+- `meeting`
+- `idea`
+- `conversation`
+- `unknown`
 
-### Query
+## Logs
 
-When answering a question:
+Sempre que processar algo, registrar no `log.md` relevante:
 
-1. Read `wiki/index.md` first.
-2. Read relevant wiki pages.
-3. Answer with citations to wiki pages and source paths when available.
-4. If the answer has durable value, file it into the appropriate wiki page or create a new page, then update the index and log.
+```md
+## YYYY-MM-DD
 
-### Lint
+- Processado: [[arquivo-original]]
+- Criado: [[nova-nota]]
+- Atualizado: [[conceito]], [[entidade]], [[sintese]]
+- Observacoes:
+- Pendencias:
+```
 
-When the user asks for a wiki health check:
+O log antigo da wiki usa tambem o formato:
 
-1. Look for contradictions, stale claims, orphan pages, missing cross-references, important concepts without pages, and data gaps.
-2. Suggest specific repairs or sources to seek.
-3. Make straightforward maintenance updates when safe.
-4. Append a `lint` entry to `wiki/log.md`.
+```md
+## [YYYY-MM-DD] tipo | Titulo
+```
+
+Esse formato continua valido para paginas herdadas da LLM Wiki, especialmente em `wiki/log.md` e `03-wiki/log.md`.
+
+## Domain Pack
+
+Cada dominio em `02-domains/` deve conter:
+
+- `_manual.md`
+- `index.md`
+- `log.md`
+- `inbox/`
+- `notes/`
+- `sources/`
+- `concepts/`
+- `entities/`
+- `questions/`
+- `synthesis/`
+- `decisions/`
+- `projects/`
+
+Antes de processar uma nota dentro de um dominio, leia o `_manual.md` daquele dominio.
+
+## Regras para 01-raw
+
+- Nunca reescrever a fonte original.
+- Quando processar uma fonte, criar nota limpa em `02-domains/` ou `03-wiki/`.
+- Criar links da nota processada de volta para a fonte original.
+- Se uma fonte gerar varios conceitos, criar ou atualizar paginas em `03-wiki/concepts/`.
+- Se uma fonte mencionar pessoas, personagens, empresas, ferramentas ou projetos, criar ou atualizar paginas em `03-wiki/entities/`.
+- Se uma fonte for muito importante, criar ou atualizar uma sintese em `03-wiki/synthesis/`.
+
+Para videos do YouTube salvos por Web Clipper, paginas de resumo de fonte devem incluir frontmatter com `channel` quando o canal puder ser verificado. Se nao puder, usar `channel: "unknown"` e registrar a duvida.
+
+## Regras para consultas
+
+Ao responder uma pergunta:
+
+1. Ler `index.md` primeiro.
+2. Ler paginas relevantes em `02-domains/`, `03-wiki/`, `04-maps/` e `05-projects/`.
+3. Consultar fontes em `01-raw/` ou `raw/` quando a resposta depender da origem.
+4. Responder com citacoes para paginas do vault e caminhos de fontes quando disponiveis.
+5. Se a resposta tiver valor duravel, registrar em uma pagina adequada, atualizar indice e log.
+
+## Regras para lint
+
+Quando o usuario pedir uma revisao de saude do wiki:
+
+1. Procurar contradicoes.
+2. Procurar claims stale ou sem fonte.
+3. Procurar paginas orfas.
+4. Procurar referencias cruzadas ausentes.
+5. Procurar conceitos importantes sem pagina.
+6. Procurar dados faltantes.
+7. Fazer manutencoes diretas quando forem seguras.
+8. Registrar no log.
+
+## Quando tiver duvida
+
+Se a IA nao souber onde colocar uma nota:
+
+1. Nao inventar.
+2. Colocar em `00-inbox/para-processar/`.
+3. Criar observacao no `log.md`.
+4. Sugerir 2 ou 3 classificacoes provaveis quando isso ajudar.
