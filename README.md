@@ -66,6 +66,18 @@ Essas memórias ficam em:
 
 `02-domains/[domínio]/memory/`
 
+## Evolução controlada do sistema
+
+O Second Brain pode evoluir com o tempo.
+
+Quando a IA percebe que um assunto aparece muitas vezes ou que uma área está crescendo demais, ela pode criar uma proposta de evolução.
+
+Essas propostas ficam em:
+
+`90-system/evolution/proposals/pending/`
+
+O usuário revisa e decide se aprova, rejeita ou ajusta.
+
 ## O que o usuário faz
 
 - Captura ideias.

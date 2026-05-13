@@ -188,17 +188,31 @@ Ao processar uma nova nota:
 
 ## Context Memories
 
-Context Memories sao memorias recorrentes por assunto.
+Context Memories sao memorias recorrentes por dominio, contexto ou assunto.
 
-Antes de responder ou processar conteudo relacionado a um dominio, projeto ou assunto, o agente deve verificar se existem memorias contextuais relevantes.
+Antes de responder sobre um assunto, processar uma nota ou trabalhar em um projeto, o agente deve verificar se existem memorias contextuais relacionadas.
 
-O agente deve criar uma memoria contextual quando o usuario pedir explicitamente ou quando ele disser que algo deve ser lembrado recorrentemente.
-
-Memorias devem ser salvas em:
+As memorias ficam em:
 
 `02-domains/[dominio]/memory/`
 
-O agente nunca deve criar memoria ficticia.
+Uma memoria so deve ser criada quando o usuario pedir explicitamente ou quando ele disser que algo deve ser lembrado de forma recorrente.
+
+A IA nao deve criar memorias ficticias.
+
+## System Evolution
+
+System Evolution e o modulo de evolucao controlada do Second Brain.
+
+A IA deve observar padroes, assuntos recorrentes, dominios que cresceram demais, templates faltantes, automacoes possiveis e oportunidades de melhoria.
+
+A IA pode criar propostas em:
+
+`90-system/evolution/proposals/pending/`
+
+A IA nao deve implementar mudancas estruturais medias ou grandes sem confirmacao humana.
+
+Mudancas como criar novo dominio, alterar `AGENTS.md`, reorganizar muitos arquivos ou criar nova automacao exigem aprovacao explicita.
 
 ## Regras de links
 
@@ -265,14 +279,21 @@ tags: []
 - `output`
 - `manual`
 - `context-memory`
+- `evolution-proposal`
+- `evolution-analysis`
 
 `status` pode ser:
 
 - `inbox`
+- `draft`
 - `processing`
 - `processed`
 - `reviewed`
 - `archived`
+- `pending`
+- `accepted`
+- `rejected`
+- `implemented`
 
 `source_type` pode ser:
 
@@ -326,16 +347,26 @@ A pasta `memory/` guarda memorias recorrentes daquele dominio. Sao lembretes per
 
 Conteudo dentro do dominio so deve ser criado a partir de notas reais, fontes reais, conteudo ja existente ou pedido explicito do usuario.
 
+## Ordem de consulta antes de responder
+
+Quando receber uma tarefa, o agente deve considerar:
+
+1. `AGENTS.md`
+2. Manuais em `90-system/manuals/`
+3. Manual do dominio relacionado
+4. Context Memories relacionadas
+5. Wiki relacionada
+6. Projetos relacionados
+7. Fontes relacionadas
+
 ## Regras para consultas
 
 Ao responder uma pergunta:
 
-1. Ler `index.md` primeiro.
-2. Verificar se existem memorias contextuais relevantes em `02-domains/[dominio]/memory/`.
-3. Ler paginas relevantes em `02-domains/`, `03-wiki/`, `04-maps/` e `05-projects/`.
-4. Consultar fontes em `01-raw/` quando a resposta depender da origem.
-5. Responder com citacoes para paginas do vault e caminhos de fontes quando disponiveis.
-6. Se a resposta tiver valor duravel, registrar em uma pagina adequada somente com autorizacao ou base real clara.
+1. Ler paginas relevantes em `02-domains/`, `03-wiki/`, `04-maps/` e `05-projects/`.
+2. Consultar fontes em `01-raw/` quando a resposta depender da origem.
+3. Responder com citacoes para paginas do vault e caminhos de fontes quando disponiveis.
+4. Se a resposta tiver valor duravel, registrar em uma pagina adequada somente com autorizacao ou base real clara.
 
 ## Quando tiver duvida
 
