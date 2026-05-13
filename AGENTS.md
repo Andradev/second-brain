@@ -214,6 +214,20 @@ A IA nao deve implementar mudancas estruturais medias ou grandes sem confirmacao
 
 Mudancas como criar novo dominio, alterar `AGENTS.md`, reorganizar muitos arquivos ou criar nova automacao exigem aprovacao explicita.
 
+## Biblioteca de Prompts
+
+A pasta `90-system/prompts/` contem modelos de prompts reutilizaveis.
+
+Esses prompts servem para orientar tarefas operacionais no Second Brain.
+
+O agente pode consultar essa biblioteca para escolher o prompt mais adequado para uma tarefa.
+
+O agente nao deve executar todos os prompts automaticamente.
+
+O agente deve respeitar o escopo de cada prompt.
+
+Prompts que alteram conteudo real devem ser executados em branch separada, nunca diretamente na main.
+
 ## Regras de links
 
 Use links internos no formato `[[nome-do-conceito]]`.
