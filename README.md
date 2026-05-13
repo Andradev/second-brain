@@ -52,6 +52,27 @@ Conteúdo antigo, pausado ou que precisa de revisão.
 
 Capturar → Classificar → Processar → Conectar → Sintetizar → Revisar → Reutilizar
 
+## Biblioteca de Prompts
+
+O Second Brain possui uma biblioteca de prompts em:
+
+`90-system/prompts/`
+
+Essa biblioteca guarda modelos reutilizáveis para operar o sistema com IA.
+
+Use esses prompts para:
+
+- processar inbox
+- classificar fontes
+- atualizar wiki
+- criar memórias contextuais
+- gerar revisões
+- propor evolução do sistema
+- manter o vault organizado
+- trabalhar com branches de forma segura
+
+Os prompts são modelos e não devem ser tratados como conteúdo real.
+
 ## Memórias por contexto
 
 O sistema possui memórias recorrentes por domínio.

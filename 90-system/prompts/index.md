@@ -1,7 +1,65 @@
-# Prompts
+# Índice da Biblioteca de Prompts
 
-Esta pasta guarda prompts mestres para usar com Codex, ChatGPT e outros agentes.
+## Core
 
-## Prompts iniciais
+[[00-core/README]]
 
-- Aguardando primeiros prompts reutilizaveis.
+## Captura
+
+[[01-capture/README]]
+
+## Inbox
+
+[[02-inbox-processing/README]]
+
+## Raw Sources
+
+[[03-raw-sources/README]]
+
+## Domínios
+
+[[04-domains/README]]
+
+## Wiki
+
+[[05-wiki/README]]
+
+## Context Memory
+
+[[06-context-memory/README]]
+
+## System Evolution
+
+[[07-system-evolution/README]]
+
+## Projetos
+
+[[08-projects/README]]
+
+## Revisões
+
+[[09-reviews/README]]
+
+## Automações
+
+[[10-automations/README]]
+
+## Git e Branches
+
+[[11-git-branches/README]]
+
+## Manutenção
+
+[[12-maintenance/README]]
+
+## Outputs
+
+[[13-outputs/README]]
+
+## Codex Operations
+
+[[14-codex-operations/README]]
+
+## Packs
+
+[[packs/README]]

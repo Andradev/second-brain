@@ -1,57 +1,46 @@
-# 90-system/prompts
+# Biblioteca de Prompts
 
-## O que é esta pasta
+Esta pasta guarda modelos de prompts reutilizáveis para operar, manter, evoluir e automatizar o Second Brain Universal.
 
-Esta pasta guarda prompts importantes.
+## Para que serve
 
-## Para que ela serve
+Serve para centralizar comandos prontos para usar com Codex, ChatGPT ou outro agente de IA.
 
-Esta subpasta melhora o funcionamento do próprio Second Brain sem misturar configuração do sistema com conteúdo pessoal.
+## O que existe aqui
 
-## Quando usar
+- Prompts de captura
+- Prompts de inbox
+- Prompts de raw
+- Prompts de domínios
+- Prompts de wiki
+- Prompts de memórias contextuais
+- Prompts de evolução do sistema
+- Prompts de projetos
+- Prompts de revisão
+- Prompts de automação
+- Prompts de Git e branches
+- Prompts de manutenção
+- Prompts de outputs
+- Prompts de operações Codex
+- Prompt packs
 
-- Quando uma regra, modelo, prompt, schema ou automação precisar ser guardado de forma durável.
-- Quando o usuário quiser melhorar o funcionamento do vault.
-- Quando a IA for solicitada a atualizar a estrutura operacional do sistema.
+## Regra principal
 
-## Quando não usar
+Prompts são modelos.
 
-- Não use para diário, estudo, trabalho, espiritualidade ou projetos pessoais.
-- Não use para fonte bruta externa.
-- Não use para notas de conhecimento comum; isso pertence a `02-domains/` ou `03-wiki/`.
+Eles não devem ser tratados como conteúdo real.
 
-## O que colocar aqui
+Eles não devem ser executados automaticamente apenas por existirem.
 
-- Prompts recorrentes.
-- Instruções para processamento.
-- Prompts de revisão.
-- Prompts de geração de outputs.
+## Como usar
 
-## Exemplos de uso
+1. Entrar na categoria certa.
+2. Abrir o arquivo do prompt.
+3. Copiar o prompt.
+4. Preencher os placeholders.
+5. Rodar no Codex/IA.
+6. Revisar o resultado.
 
-- Exemplo conceitual: guardar um modelo de frontmatter para notas processadas.
-- Exemplo conceitual: registrar um prompt recorrente usado para revisar a semana.
-- Exemplo conceitual: documentar uma regra operacional que a IA deve seguir.
+## Cuidado
 
-## Como esta pasta se conecta com o resto do sistema
-
-Esta pasta se conecta a todo o vault porque define como o sistema funciona. Ela não substitui `AGENTS.md`, os manuais em `90-system/manuals/` nem os `_manual.md` dos domínios.
-
-## Fluxo recomendado
-
-1. Identifique se a mudança é realmente uma regra, modelo ou configuração do sistema.
-2. Atualize o arquivo adequado nesta subpasta.
-3. Preserve conteúdo útil já existente.
-4. Registre mudanças relevantes no log quando necessário.
-5. Use essas regras para orientar a IA, sem transformar exemplos em notas reais.
-
-## Regras importantes
-
-- Quem usa: usuário e IA.
-- Não misture conteúdo pessoal com configuração do sistema.
-- Exemplos devem ser textuais ou placeholders dentro de templates.
-- Regras operacionais continuam em `AGENTS.md`, `90-system/manuals/` e `_manual.md` dos domínios.
-
-## Resumo rápido
-
-Use `90-system/prompts/` para prompts importantes do sistema.
+Prompts que alteram conteúdo real devem rodar em branch separada, nunca diretamente na main.
