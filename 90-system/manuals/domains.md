@@ -26,6 +26,7 @@ Cada dominio deve seguir o Domain Pack:
 - `log.md`
 - `inbox/`
 - `notes/`
+- `memory/`
 - `sources/`
 - `concepts/`
 - `entities/`
@@ -34,10 +35,12 @@ Cada dominio deve seguir o Domain Pack:
 - `decisions/`
 - `projects/`
 
+A pasta `memory/` guarda memorias recorrentes daquele dominio. Sao lembretes persistentes que a IA deve considerar quando o assunto aparecer novamente.
+
 ## Como processar
 
 Antes de mexer em um dominio, ler o `_manual.md` local.
 
 Sempre atualizar o `index.md` e o `log.md` quando algo relevante for criado ou processado.
 
-Nao criar notas, conceitos, entidades, fontes, sinteses, decisoes ou projetos simulados.
+Nao criar notas, conceitos, entidades, fontes, sinteses, decisoes, projetos ou memorias simulados.

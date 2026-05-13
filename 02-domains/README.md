@@ -25,6 +25,7 @@ Serve para guardar notas processadas, perguntas, decisões, fontes conectadas, s
 ## O que colocar aqui
 
 - Notas processadas por área da vida.
+- Memórias recorrentes por domínio.
 - Fontes conectadas ao domínio.
 - Conceitos, entidades e perguntas reais dentro da área.
 - Sínteses vivas quando houver material suficiente.
@@ -58,6 +59,7 @@ Serve para guardar notas processadas, perguntas, decisões, fontes conectadas, s
 - `log.md` registra mudanças.
 - `inbox/` guarda notas da área ainda não organizadas.
 - `notes/` guarda notas processadas.
+- `memory/` guarda memórias recorrentes daquele domínio.
 - `sources/` guarda fontes específicas relacionadas à área.
 - `concepts/` guarda conceitos importantes dentro da área.
 - `entities/` guarda pessoas, ferramentas, personagens, empresas ou elementos importantes.

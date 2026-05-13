@@ -186,6 +186,20 @@ Ao processar uma nova nota:
 - Se o usuario mencionar um possivel projeto em uma nota, registrar primeiro em `05-projects/inbox/` ou `02-domains/05-projects-ideas/`.
 - Criar projeto ativo em `05-projects/active/` somente quando o usuario pedir explicitamente ou confirmar que o projeto existe.
 
+## Context Memories
+
+Context Memories sao memorias recorrentes por assunto.
+
+Antes de responder ou processar conteudo relacionado a um dominio, projeto ou assunto, o agente deve verificar se existem memorias contextuais relevantes.
+
+O agente deve criar uma memoria contextual quando o usuario pedir explicitamente ou quando ele disser que algo deve ser lembrado recorrentemente.
+
+Memorias devem ser salvas em:
+
+`02-domains/[dominio]/memory/`
+
+O agente nunca deve criar memoria ficticia.
+
 ## Regras de links
 
 Use links internos no formato `[[nome-do-conceito]]`.
@@ -250,6 +264,7 @@ tags: []
 - `review`
 - `output`
 - `manual`
+- `context-memory`
 
 `status` pode ser:
 
@@ -296,6 +311,7 @@ Cada dominio em `02-domains/` deve conter:
 - `log.md`
 - `inbox/`
 - `notes/`
+- `memory/`
 - `sources/`
 - `concepts/`
 - `entities/`
@@ -306,6 +322,8 @@ Cada dominio em `02-domains/` deve conter:
 
 Antes de processar uma nota dentro de um dominio, leia o `_manual.md` daquele dominio.
 
+A pasta `memory/` guarda memorias recorrentes daquele dominio. Sao lembretes persistentes que a IA deve considerar quando o assunto aparecer novamente.
+
 Conteudo dentro do dominio so deve ser criado a partir de notas reais, fontes reais, conteudo ja existente ou pedido explicito do usuario.
 
 ## Regras para consultas
@@ -313,10 +331,11 @@ Conteudo dentro do dominio so deve ser criado a partir de notas reais, fontes re
 Ao responder uma pergunta:
 
 1. Ler `index.md` primeiro.
-2. Ler paginas relevantes em `02-domains/`, `03-wiki/`, `04-maps/` e `05-projects/`.
-3. Consultar fontes em `01-raw/` quando a resposta depender da origem.
-4. Responder com citacoes para paginas do vault e caminhos de fontes quando disponiveis.
-5. Se a resposta tiver valor duravel, registrar em uma pagina adequada somente com autorizacao ou base real clara.
+2. Verificar se existem memorias contextuais relevantes em `02-domains/[dominio]/memory/`.
+3. Ler paginas relevantes em `02-domains/`, `03-wiki/`, `04-maps/` e `05-projects/`.
+4. Consultar fontes em `01-raw/` quando a resposta depender da origem.
+5. Responder com citacoes para paginas do vault e caminhos de fontes quando disponiveis.
+6. Se a resposta tiver valor duravel, registrar em uma pagina adequada somente com autorizacao ou base real clara.
 
 ## Quando tiver duvida
 

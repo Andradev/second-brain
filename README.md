@@ -52,6 +52,20 @@ Conteúdo antigo, pausado ou que precisa de revisão.
 
 Capturar → Classificar → Processar → Conectar → Sintetizar → Revisar → Reutilizar
 
+## Memórias por contexto
+
+O sistema possui memórias recorrentes por domínio.
+
+Use isso quando quiser que a IA lembre de algo sempre que determinado assunto aparecer novamente.
+
+Exemplo conceitual:
+
+“Quando eu falar sobre rodar a aplicação do trabalho, lembre que existe um procedimento obrigatório antes.”
+
+Essas memórias ficam em:
+
+`02-domains/[domínio]/memory/`
+
 ## O que o usuário faz
 
 - Captura ideias.
