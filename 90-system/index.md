@@ -10,6 +10,8 @@ Esta pasta guarda regras internas, manuais, templates, prompts, schemas e automa
 - `schemas/`
 - `automations/`
 - `agent-rules/`
+- `context-memory/`
+- `evolution/`
 
 ## Estado inicial
 

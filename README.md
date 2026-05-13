@@ -52,6 +52,32 @@ Conteúdo antigo, pausado ou que precisa de revisão.
 
 Capturar → Classificar → Processar → Conectar → Sintetizar → Revisar → Reutilizar
 
+## Memórias por contexto
+
+O sistema possui memórias recorrentes por domínio.
+
+Use isso quando quiser que a IA lembre de algo sempre que determinado assunto aparecer novamente.
+
+Exemplo conceitual:
+
+“Quando eu falar sobre rodar a aplicação do trabalho, lembre que existe um procedimento obrigatório antes.”
+
+Essas memórias ficam em:
+
+`02-domains/[domínio]/memory/`
+
+## Evolução controlada do sistema
+
+O Second Brain pode evoluir com o tempo.
+
+Quando a IA percebe que um assunto aparece muitas vezes ou que uma área está crescendo demais, ela pode criar uma proposta de evolução.
+
+Essas propostas ficam em:
+
+`90-system/evolution/proposals/pending/`
+
+O usuário revisa e decide se aprova, rejeita ou ajusta.
+
 ## O que o usuário faz
 
 - Captura ideias.

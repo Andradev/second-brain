@@ -30,6 +30,8 @@ Serve para manuais, templates, prompts, schemas, automações e regras que defin
 - `prompts/`: prompts importantes.
 - `automations/`: ideias de automação.
 - `agent-rules/`: regras específicas de agentes.
+- `context-memory/`: regras, template e documentação de memórias contextuais.
+- `evolution/`: regras, templates e propostas de evolução controlada do sistema.
 
 ## Exemplos de uso
 
