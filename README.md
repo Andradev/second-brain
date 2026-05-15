@@ -1,129 +1,50 @@
 # Second Brain Universal com IA
 
-## O que é este vault
+Este sistema serve para capturar ideias, preservar fontes, organizar areas da vida, manter projetos, gerar revisoes e permitir que a IA construa uma wiki interna de conhecimento.
 
-Este vault é um sistema pessoal de conhecimento com IA. Ele existe para capturar, organizar, conectar e reutilizar ideias, estudos, fontes, projetos, decisões, diário, espiritualidade, trabalho e aprendizados ao longo da vida.
+## Como usar
 
-## Ideia central
+1. Ideias soltas vao para `00-inbox/`.
+2. Fontes externas vao para `01-fontes/inbox/`.
+3. Conteudos organizados ficam em `02-areas/`.
+4. Projetos ficam em `03-projetos/`.
+5. Revisoes ficam em `04-revisoes/`.
+6. Materiais finais ficam em `05-saidas/`.
+7. A parte tecnica fica em `90-sistema/`.
 
-O usuário captura.
+## A regra mais simples
 
-A IA organiza, classifica, conecta, sintetiza e mantém vivo.
+Se veio da sua cabeca, coloque em `00-inbox/`.
 
-## Como usar no dia a dia
+Se veio de fora, coloque em `01-fontes/inbox/`.
 
-1. Ideias, pensamentos e anotações soltas vão para `00-inbox/`.
-2. Fontes brutas, como vídeos, artigos, PDFs, aulas e prints, vão para `01-raw/inbox/`.
-3. Ideias que podem virar projetos vão para `05-projects/inbox/`.
+Depois a IA organiza.
 
-## Diferença entre as principais áreas
+## O que acontece por baixo
 
-`00-inbox/`
-Entrada geral de ideias soltas.
+A IA usa uma arquitetura LLM Wiki interna para conectar conhecimento.
 
-`01-raw/`
-Fontes brutas e originais.
+Essa wiki interna fica em:
 
-`02-domains/`
-Áreas da vida.
+`90-sistema/llm-wiki/`
 
-`03-wiki/`
-Conhecimento conectado.
+Voce nao precisa mexer nela no dia a dia.
 
-`04-maps/`
-Mapas de visão geral.
+## Pastas principais
 
-`05-projects/`
-Projetos reais confirmados ou ideias candidatas.
-
-`06-outputs/`
-Materiais finais gerados.
-
-`07-reviews/`
-Revisões periódicas.
-
-`90-system/`
-Manuais, templates e regras internas.
-
-`99-archive/`
-Conteúdo antigo, pausado ou que precisa de revisão.
-
-## Fluxo principal
-
-Capturar → Classificar → Processar → Conectar → Sintetizar → Revisar → Reutilizar
-
-## Biblioteca de Prompts
-
-O Second Brain possui uma biblioteca de prompts em:
-
-`90-system/prompts/`
-
-Essa biblioteca guarda modelos reutilizáveis para operar o sistema com IA.
-
-Use esses prompts para:
-
-- processar inbox
-- classificar fontes
-- atualizar wiki
-- criar memórias contextuais
-- gerar revisões
-- propor evolução do sistema
-- manter o vault organizado
-- trabalhar com branches de forma segura
-
-Os prompts são modelos e não devem ser tratados como conteúdo real.
-
-## Memórias por contexto
-
-O sistema possui memórias recorrentes por domínio.
-
-Use isso quando quiser que a IA lembre de algo sempre que determinado assunto aparecer novamente.
-
-Exemplo conceitual:
-
-“Quando eu falar sobre rodar a aplicação do trabalho, lembre que existe um procedimento obrigatório antes.”
-
-Essas memórias ficam em:
-
-`02-domains/[domínio]/memory/`
-
-## Evolução controlada do sistema
-
-O Second Brain pode evoluir com o tempo.
-
-Quando a IA percebe que um assunto aparece muitas vezes ou que uma área está crescendo demais, ela pode criar uma proposta de evolução.
-
-Essas propostas ficam em:
-
-`90-system/evolution/proposals/pending/`
-
-O usuário revisa e decide se aprova, rejeita ou ajusta.
-
-## O que o usuário faz
-
-- Captura ideias.
-- Adiciona fontes.
-- Pede para a IA processar.
-- Revisa os resultados.
-- Decide o que vira projeto.
-- Usa a wiki e os mapas para lembrar e conectar conhecimento.
-
-## O que a IA faz
-
-- Classifica conteúdos.
-- Processa fontes.
-- Cria notas organizadas.
-- Cria links internos.
-- Atualiza wiki.
-- Atualiza mapas.
-- Atualiza logs.
-- Gera sínteses.
-- Ajuda em revisões.
+- `00-inbox/`: coisas soltas.
+- `01-fontes/`: fontes externas preservadas.
+- `02-areas/`: vida organizada por contexto.
+- `03-projetos/`: projetos candidatos, ativos, pausados e concluidos.
+- `04-revisoes/`: revisoes semanais e mensais.
+- `05-saidas/`: materiais prontos.
+- `90-sistema/`: regras, templates, prompts e nucleo LLM Wiki.
+- `99-arquivo/`: coisas antigas, pausadas, descartadas ou incertas.
 
 ## Regra de ouro
 
-Não precisa organizar perfeitamente na hora da captura.
+Nao tente organizar tudo perfeitamente na hora.
 
-O importante é capturar.
+Capture primeiro.
 
-Depois, a IA ajuda a organizar.
+A IA organiza depois.

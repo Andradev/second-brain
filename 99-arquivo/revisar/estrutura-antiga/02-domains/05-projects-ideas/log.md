@@ -1,0 +1,3 @@
+# Log
+
+Nenhum registro ainda.
