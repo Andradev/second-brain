@@ -68,7 +68,7 @@ Proposta rejeitada ou arquivada com rastreabilidade.
 
 ## Arquivos que podem ser afetados
 
-- `90-sistema/evolution/proposals/`
+- `90-sistema/evolucao/proposals/`
 
 ## Observações
 

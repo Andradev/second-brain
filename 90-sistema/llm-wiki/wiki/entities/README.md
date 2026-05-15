@@ -35,12 +35,12 @@ Esta subpasta ajuda a manter a wiki navegável, conectada e baseada em conteúdo
 
 ## Como esta pasta se conecta com o resto do sistema
 
-A wiki recebe conhecimento extraído de `01-fontes/`, organizado em `02-areas/` e conectado a mapas, projetos, revisões e outputs quando isso ajuda a reutilizar o conhecimento.
+A wiki recebe conhecimento extraído de `01-fontes/`, organizado em `02-areas/` e conectado a projetos, revisões e saídas quando isso ajuda a reutilizar o conhecimento.
 
 ## Fluxo recomendado
 
 1. Capture primeiro em `00-inbox/` ou `01-fontes/`.
-2. Processe a fonte ou nota em um domínio adequado.
+2. Processe a fonte ou nota na área adequada.
 3. Crie ou atualize a página da wiki apenas quando houver conteúdo real suficiente.
 4. Conecte com notas, fontes, conceitos, entidades, projetos ou perguntas existentes.
 5. Revise periodicamente para evitar páginas vazias ou duplicadas.

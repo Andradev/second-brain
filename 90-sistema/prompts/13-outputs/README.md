@@ -1,4 +1,4 @@
-# Outputs
+# Saídas
 
 ## Objetivo
 
@@ -15,10 +15,10 @@ Prompts para gerar documentos finais em `05-saidas/` a partir de conteúdo real 
 
 ## Regras da categoria
 
-- Outputs são materiais finais.
-- Fontes brutas não vão para outputs.
-- Conteúdo conectado vai para wiki.
-- Notas de vida vão para domains.
+- Saídas são materiais finais.
+- Fontes externas originais não vão para `05-saidas/`.
+- Conteúdo conectado vai para `90-sistema/llm-wiki/wiki/`.
+- Notas organizadas ficam em `02-areas/`.
 
 ## Como usar
 

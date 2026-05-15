@@ -14,7 +14,7 @@ Não use quando é só diferença legítima de contexto.
 
 ## Entrada esperada
 
-Escopo na wiki ou domínios.
+Escopo na wiki ou áreas.
 
 ## Regras importantes
 
@@ -40,7 +40,7 @@ Contexto:
 Esta tarefa deve respeitar as regras do vault, preservar fontes originais, evitar conteúdo simulado e manter a main limpa.
 
 Entrada esperada:
-Escopo na wiki ou domínios.
+Escopo na wiki ou áreas.
 
 Tarefa:
 1. Verifique o escopo solicitado.
@@ -69,7 +69,7 @@ Lista de duplicidades candidatas.
 ## Arquivos que podem ser afetados
 
 - `90-sistema/llm-wiki/wiki/concepts/`
-- `02-areas/*/concepts/`
+- `90-sistema/llm-wiki/wiki/concepts/`
 
 ## Observações
 

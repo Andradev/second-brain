@@ -1,8 +1,8 @@
-# Registrar decisão de domínio
+# Registrar decisão de área
 
 ## Objetivo
 
-Registrar uma decisão real relacionada a um domínio.
+Registrar uma decisão real relacionada a uma área.
 
 ## Quando usar
 
@@ -34,7 +34,7 @@ Decisão, contexto, data e origem.
 Você é um agente de IA atuando no meu Second Brain Universal.
 
 Objetivo:
-Registrar uma decisão real relacionada a um domínio.
+Registrar uma decisão real relacionada a uma área.
 
 Contexto:
 Esta tarefa deve respeitar as regras do vault, preservar fontes originais, evitar conteúdo simulado e manter a main limpa.
@@ -68,8 +68,8 @@ Decisão registrada de forma rastreável.
 
 ## Arquivos que podem ser afetados
 
-- `02-areas/[domínio]/decisions/`
-- `02-areas/[domínio]/log.md`
+- `02-areas/[area-principal]/`
+- `02-areas/[area-principal]/README.md`
 
 ## Observações
 

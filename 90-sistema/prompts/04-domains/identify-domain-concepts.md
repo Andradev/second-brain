@@ -1,8 +1,8 @@
-# Identificar conceitos do domínio
+# Identificar conceitos da área
 
 ## Objetivo
 
-Extrair conceitos reais recorrentes ou reutilizáveis de notas de um domínio.
+Extrair conceitos reais recorrentes ou reutilizáveis de notas de uma área.
 
 ## Quando usar
 
@@ -14,7 +14,7 @@ Não use quando há apenas uma menção vaga ou exemplo de prompt.
 
 ## Entrada esperada
 
-Notas ou fontes reais do domínio.
+Notas ou fontes reais da área.
 
 ## Regras importantes
 
@@ -34,13 +34,13 @@ Notas ou fontes reais do domínio.
 Você é um agente de IA atuando no meu Second Brain Universal.
 
 Objetivo:
-Extrair conceitos reais recorrentes ou reutilizáveis de notas de um domínio.
+Extrair conceitos reais recorrentes ou reutilizáveis de notas de uma área.
 
 Contexto:
 Esta tarefa deve respeitar as regras do vault, preservar fontes originais, evitar conteúdo simulado e manter a main limpa.
 
 Entrada esperada:
-Notas ou fontes reais do domínio.
+Notas ou fontes reais da área.
 
 Tarefa:
 1. Verifique o escopo solicitado.
@@ -68,7 +68,7 @@ Lista de conceitos candidatos com origem e recomendação.
 
 ## Arquivos que podem ser afetados
 
-- `02-areas/[domínio]/concepts/`
+- `90-sistema/llm-wiki/wiki/concepts/`
 - `90-sistema/llm-wiki/wiki/concepts/`
 
 ## Observações

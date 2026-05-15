@@ -1,8 +1,8 @@
-# Identificar entidades do domínio
+# Identificar entidades da área
 
 ## Objetivo
 
-Identificar pessoas, ferramentas, empresas, lugares ou projetos reais mencionados em um domínio.
+Identificar pessoas, ferramentas, empresas, lugares ou projetos reais mencionados em uma área.
 
 ## Quando usar
 
@@ -14,7 +14,7 @@ Não use quando a entidade só aparece em exemplo conceitual.
 
 ## Entrada esperada
 
-Notas ou fontes reais do domínio.
+Notas ou fontes reais da área.
 
 ## Regras importantes
 
@@ -34,13 +34,13 @@ Notas ou fontes reais do domínio.
 Você é um agente de IA atuando no meu Second Brain Universal.
 
 Objetivo:
-Identificar pessoas, ferramentas, empresas, lugares ou projetos reais mencionados em um domínio.
+Identificar pessoas, ferramentas, empresas, lugares ou projetos reais mencionados em uma área.
 
 Contexto:
 Esta tarefa deve respeitar as regras do vault, preservar fontes originais, evitar conteúdo simulado e manter a main limpa.
 
 Entrada esperada:
-Notas ou fontes reais do domínio.
+Notas ou fontes reais da área.
 
 Tarefa:
 1. Verifique o escopo solicitado.
@@ -68,7 +68,7 @@ Entidades candidatas ou páginas atualizadas com fonte.
 
 ## Arquivos que podem ser afetados
 
-- `02-areas/[domínio]/entities/`
+- `90-sistema/llm-wiki/wiki/entities/`
 - `90-sistema/llm-wiki/wiki/entities/`
 
 ## Observações

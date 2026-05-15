@@ -14,7 +14,7 @@ Não use quando é só uma ideia ou hipótese.
 
 ## Entrada esperada
 
-Nome do projeto, objetivo, domínio e confirmação.
+Nome do projeto, objetivo, área e confirmação.
 
 ## Regras importantes
 
@@ -40,7 +40,7 @@ Contexto:
 Esta tarefa deve respeitar as regras do vault, preservar fontes originais, evitar conteúdo simulado e manter a main limpa.
 
 Entrada esperada:
-Nome do projeto, objetivo, domínio e confirmação.
+Nome do projeto, objetivo, área e confirmação.
 
 Tarefa:
 1. Verifique o escopo solicitado.

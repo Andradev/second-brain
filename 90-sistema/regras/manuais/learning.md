@@ -1,8 +1,8 @@
-# Manual: Learning
+# Manual: Estudos
 
 ## Proposito
 
-Manual operacional resumido para [[02-areas/estudos/index|Learning]].
+Manual operacional resumido para `02-areas/estudos/`.
 
 ## Regra contra conteudo simulado
 
@@ -18,5 +18,6 @@ Conectar cursos, aulas e faculdade com projetos reais somente quando houver proj
 
 ## Conexoes frequentes
 
-- [[02-areas/estudos/index|Learning]]
-- [[START-HERE.md/mapa-de-estudos]]
+- `02-areas/estudos/`
+- `01-fontes/inbox/`
+- `90-sistema/llm-wiki/wiki/`

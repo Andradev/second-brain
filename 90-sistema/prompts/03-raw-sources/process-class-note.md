@@ -59,18 +59,18 @@ Regras:
 7. Não fazer merge automático.
 
 Resultado esperado:
-Nota de estudo organizada no domínio correto.
+Nota de estudo organizada na área correta.
 ```
 
 ## Resultado esperado
 
-Nota de estudo organizada no domínio correto.
+Nota de estudo organizada na área correta.
 
 ## Arquivos que podem ser afetados
 
 - `01-fontes/`
 - `02-areas/estudos/`
-- `02-areas/[domínio]/notes/`
+- `02-areas/[area-principal]/`
 
 ## Observações
 

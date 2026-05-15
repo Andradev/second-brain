@@ -1,4 +1,4 @@
-# Registrar pergunta de domínio
+# Registrar pergunta de área
 
 ## Objetivo
 
@@ -14,7 +14,7 @@ Não use quando a pergunta é genérica e não tem vínculo com conteúdo real.
 
 ## Entrada esperada
 
-Pergunta, origem e domínio provável.
+Pergunta, origem e área provável.
 
 ## Regras importantes
 
@@ -40,7 +40,7 @@ Contexto:
 Esta tarefa deve respeitar as regras do vault, preservar fontes originais, evitar conteúdo simulado e manter a main limpa.
 
 Entrada esperada:
-Pergunta, origem e domínio provável.
+Pergunta, origem e área provável.
 
 Tarefa:
 1. Verifique o escopo solicitado.
@@ -68,7 +68,7 @@ Pergunta registrada para revisão futura.
 
 ## Arquivos que podem ser afetados
 
-- `02-areas/[domínio]/questions/`
+- `90-sistema/llm-wiki/wiki/questions/`
 
 ## Observações
 

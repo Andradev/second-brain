@@ -1,4 +1,4 @@
-# 90-sistema/automations
+# 90-sistema/automacoes
 
 ## O que é esta pasta
 
@@ -6,13 +6,13 @@ Esta pasta guarda ideias e documentação de automações.
 
 ## Para que ela serve
 
-Esta subpasta melhora o funcionamento do próprio Second Brain sem misturar configuração do sistema com conteúdo pessoal.
+Ela documenta possíveis automações sem executá-las automaticamente.
 
 ## Quando usar
 
-- Quando uma regra, modelo, prompt, schema ou automação precisar ser guardado de forma durável.
-- Quando o usuário quiser melhorar o funcionamento do vault.
-- Quando a IA for solicitada a atualizar a estrutura operacional do sistema.
+- Quando uma automação futura precisar ser documentada.
+- Quando um fluxo recorrente merecer proposta antes de implementação.
+- Quando o usuário pedir explicitamente para pensar em automação.
 
 ## Quando não usar
 
@@ -27,15 +27,9 @@ Esta subpasta melhora o funcionamento do próprio Second Brain sem misturar conf
 - Regras para futuras rotinas.
 - Anotações sobre tarefas recorrentes.
 
-## Exemplos de uso
-
-- Exemplo conceitual: guardar um modelo de frontmatter para notas processadas.
-- Exemplo conceitual: registrar um prompt recorrente usado para revisar a semana.
-- Exemplo conceitual: documentar uma regra operacional que a IA deve seguir.
-
 ## Como esta pasta se conecta com o resto do sistema
 
-Esta pasta se conecta a todo o vault porque define como o sistema funciona. Ela não substitui `AGENTS.md`, os manuais em `90-sistema/manuals/` nem os `_manual.md` dos domínios.
+Esta pasta complementa `AGENTS.md`, `90-sistema/evolucao/` e os manuais em `90-sistema/regras/manuais/`.
 
 ## Fluxo recomendado
 
@@ -50,8 +44,8 @@ Esta pasta se conecta a todo o vault porque define como o sistema funciona. Ela 
 - Quem usa: usuário e IA.
 - Não misture conteúdo pessoal com configuração do sistema.
 - Exemplos devem ser textuais ou placeholders dentro de templates.
-- Regras operacionais continuam em `AGENTS.md`, `90-sistema/manuals/` e `_manual.md` dos domínios.
+- Regras operacionais principais continuam em `AGENTS.md`.
 
 ## Resumo rápido
 
-Use `90-sistema/automations/` para planejar automações do vault.
+Use `90-sistema/automacoes/` para planejar automações do vault.

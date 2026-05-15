@@ -5,7 +5,7 @@ status: "pending"
 impact: "low|medium|high"
 created: YYYY-MM-DD
 updated: YYYY-MM-DD
-related_domains: []
+related_areas: []
 related_topics: []
 ---
 
@@ -31,14 +31,12 @@ Explique o que deve mudar.
 
 Escolha um tipo:
 
-- new-subdomain
-- new-domain
-- new-map
+- new-area
 - new-template
 - new-context-memory
 - new-automation
 - wiki-refactor
-- domain-refactor
+- area-refactor
 - project-promotion
 - archive-cleanup
 - agents-rule-update

@@ -45,7 +45,7 @@ Tarefas:
    - reunião
    - outro material de referência
 
-3. Identificar o domínio principal da fonte:
+3. Identificar a área principal da fonte:
    - trabalho
    - estudos
    - fé e valores

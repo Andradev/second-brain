@@ -69,7 +69,8 @@ Rotina diária concluída em branch separada.
 ## Arquivos que podem ser afetados
 
 - `00-inbox/`
-- `04-revisoes/daily/`
+- `00-inbox/para-processar/`
+- `04-revisoes/semanais/`
 - `90-sistema/automations/`
 
 ## Observações

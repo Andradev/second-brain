@@ -1,8 +1,8 @@
-# Criar nota de domínio
+# Criar nota de área
 
 ## Objetivo
 
-Criar uma nota processada em um domínio a partir de conteúdo real.
+Criar uma nota processada em uma área a partir de conteúdo real.
 
 ## Quando usar
 
@@ -14,7 +14,7 @@ Não use quando a informação vier só de exemplo conceitual.
 
 ## Entrada esperada
 
-Conteúdo real, domínio principal e fonte, se houver.
+Conteúdo real, área principal e fonte, se houver.
 
 ## Regras importantes
 
@@ -26,7 +26,7 @@ Conteúdo real, domínio principal e fonte, se houver.
 - Não fazer merge automático.
 - Usar frontmatter padrão.
 - Criar wikilinks apenas para conhecimento real.
-- Atualizar log do domínio.
+- Atualizar log da área.
 
 ## Prompt copiável
 
@@ -34,13 +34,13 @@ Conteúdo real, domínio principal e fonte, se houver.
 Você é um agente de IA atuando no meu Second Brain Universal.
 
 Objetivo:
-Criar uma nota processada em um domínio a partir de conteúdo real.
+Criar uma nota processada em uma área a partir de conteúdo real.
 
 Contexto:
 Esta tarefa deve respeitar as regras do vault, preservar fontes originais, evitar conteúdo simulado e manter a main limpa.
 
 Entrada esperada:
-Conteúdo real, domínio principal e fonte, se houver.
+Conteúdo real, área principal e fonte, se houver.
 
 Tarefa:
 1. Verifique o escopo solicitado.
@@ -59,17 +59,17 @@ Regras:
 7. Não fazer merge automático.
 
 Resultado esperado:
-Nota processada criada em `notes/` ou área adequada do domínio.
+Nota processada criada na área adequada.
 ```
 
 ## Resultado esperado
 
-Nota processada criada em `notes/` ou área adequada do domínio.
+Nota processada criada na área adequada.
 
 ## Arquivos que podem ser afetados
 
-- `02-areas/[domínio]/notes/`
-- `02-areas/[domínio]/log.md`
+- `02-areas/[area-principal]/`
+- `02-areas/[area-principal]/README.md`
 
 ## Observações
 

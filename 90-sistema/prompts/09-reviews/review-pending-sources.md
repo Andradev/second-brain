@@ -14,7 +14,7 @@ Não use quando o usuário pediu para processar uma fonte específica agora.
 
 ## Entrada esperada
 
-Categorias de raw a revisar.
+Categorias de fontes a revisar.
 
 ## Regras importantes
 
@@ -40,7 +40,7 @@ Contexto:
 Esta tarefa deve respeitar as regras do vault, preservar fontes originais, evitar conteúdo simulado e manter a main limpa.
 
 Entrada esperada:
-Categorias de raw a revisar.
+Categorias de fontes a revisar.
 
 Tarefa:
 1. Verifique o escopo solicitado.

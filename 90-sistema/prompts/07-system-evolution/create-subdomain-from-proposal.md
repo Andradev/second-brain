@@ -1,12 +1,12 @@
-# Criar subdomínio a partir de proposta
+# Criar ajuste estrutural a partir de proposta
 
 ## Objetivo
 
-Criar subdomínio ou estrutura semelhante somente após aprovação.
+Criar área, subpasta ou ajuste estrutural somente após aprovação.
 
 ## Quando usar
 
-Use quando uma proposta aprovada pede novo subdomínio.
+Use quando uma proposta aprovada pede uma mudança estrutural.
 
 ## Quando não usar
 
@@ -14,7 +14,7 @@ Não use quando só há um tema recorrente sem decisão humana.
 
 ## Entrada esperada
 
-Proposta aprovada, nome do subdomínio e domínio pai.
+Proposta aprovada, nome da mudança e área relacionada.
 
 ## Regras importantes
 
@@ -34,13 +34,13 @@ Proposta aprovada, nome do subdomínio e domínio pai.
 Você é um agente de IA atuando no meu Second Brain Universal.
 
 Objetivo:
-Criar subdomínio ou estrutura semelhante somente após aprovação.
+Criar área, subpasta ou ajuste estrutural somente após aprovação.
 
 Contexto:
 Esta tarefa deve respeitar as regras do vault, preservar fontes originais, evitar conteúdo simulado e manter a main limpa.
 
 Entrada esperada:
-Proposta aprovada, nome do subdomínio e domínio pai.
+Proposta aprovada, nome da mudança e área relacionada.
 
 Tarefa:
 1. Verifique o escopo solicitado.
@@ -59,17 +59,17 @@ Regras:
 7. Não fazer merge automático.
 
 Resultado esperado:
-Subdomínio criado conforme proposta.
+Ajuste estrutural criado conforme proposta.
 ```
 
 ## Resultado esperado
 
-Subdomínio criado conforme proposta.
+Ajuste estrutural criado conforme proposta.
 
 ## Arquivos que podem ser afetados
 
-- `02-areas/[domínio]/`
-- `90-sistema/evolution/`
+- `02-areas/`
+- `90-sistema/evolucao/`
 
 ## Observações
 

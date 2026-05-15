@@ -68,7 +68,7 @@ Uma entrada de captura limpa, com possíveis tags conceituais e próximos passos
 
 ## Arquivos que podem ser afetados
 
-- `00-inbox/ ou inbox de domínio, se o usuário confirmar`
+- `00-inbox/ ou inbox de área, se o usuário confirmar`
 
 ## Observações
 

@@ -1,4 +1,4 @@
-# 90-sistema/schemas
+# 90-sistema/regras/schemas
 
 ## O que é esta pasta
 
@@ -6,13 +6,13 @@ Esta pasta guarda schemas e padrões de metadados.
 
 ## Para que ela serve
 
-Esta subpasta melhora o funcionamento do próprio Second Brain sem misturar configuração do sistema com conteúdo pessoal.
+Ela guarda padrões estruturais sem misturar configuração técnica com conteúdo pessoal.
 
 ## Quando usar
 
-- Quando uma regra, modelo, prompt, schema ou automação precisar ser guardado de forma durável.
-- Quando o usuário quiser melhorar o funcionamento do vault.
-- Quando a IA for solicitada a atualizar a estrutura operacional do sistema.
+- Quando um padrão de metadados precisar ser documentado.
+- Quando tipos, status ou campos precisarem ser consultados.
+- Quando a IA for solicitada a ajustar schemas.
 
 ## Quando não usar
 
@@ -27,15 +27,9 @@ Esta subpasta melhora o funcionamento do próprio Second Brain sem misturar conf
 - Definições de campos.
 - Convenções de tipo e status.
 
-## Exemplos de uso
-
-- Exemplo conceitual: guardar um modelo de frontmatter para notas processadas.
-- Exemplo conceitual: registrar um prompt recorrente usado para revisar a semana.
-- Exemplo conceitual: documentar uma regra operacional que a IA deve seguir.
-
 ## Como esta pasta se conecta com o resto do sistema
 
-Esta pasta se conecta a todo o vault porque define como o sistema funciona. Ela não substitui `AGENTS.md`, os manuais em `90-sistema/manuals/` nem os `_manual.md` dos domínios.
+Esta pasta complementa `AGENTS.md`, os manuais em `90-sistema/regras/manuais/` e os templates em `90-sistema/templates/`.
 
 ## Fluxo recomendado
 
@@ -50,8 +44,8 @@ Esta pasta se conecta a todo o vault porque define como o sistema funciona. Ela 
 - Quem usa: principalmente IA, com revisão do usuário.
 - Não misture conteúdo pessoal com configuração do sistema.
 - Exemplos devem ser textuais ou placeholders dentro de templates.
-- Regras operacionais continuam em `AGENTS.md`, `90-sistema/manuals/` e `_manual.md` dos domínios.
+- Regras operacionais principais continuam em `AGENTS.md`.
 
 ## Resumo rápido
 
-Use `90-sistema/schemas/` para padrões estruturais.
+Use `90-sistema/regras/schemas/` para padrões estruturais.

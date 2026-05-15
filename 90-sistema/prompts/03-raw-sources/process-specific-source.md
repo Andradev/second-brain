@@ -14,7 +14,7 @@ Não use quando a fonte for apenas exemplo de template ou não existir no vault.
 
 ## Entrada esperada
 
-Caminho da fonte, tipo, domínio provável e objetivo do processamento.
+Caminho da fonte, tipo, área provável e objetivo do processamento.
 
 ## Regras importantes
 
@@ -41,7 +41,7 @@ Contexto:
 Esta tarefa deve respeitar as regras do vault, preservar fontes originais, evitar conteúdo simulado e manter a main limpa.
 
 Entrada esperada:
-Caminho da fonte, tipo, domínio provável e objetivo do processamento.
+Caminho da fonte, tipo, área provável e objetivo do processamento.
 
 Tarefa:
 1. Verifique o escopo solicitado.
@@ -60,20 +60,20 @@ Regras:
 7. Não fazer merge automático.
 
 Resultado esperado:
-Fonte processada em nota de domínio, com links e pendências reais.
+Fonte processada em nota de área, com links e pendências reais.
 ```
 
 ## Resultado esperado
 
-Fonte processada em nota de domínio, com links e pendências reais.
+Fonte processada em nota de área, com links e pendências reais.
 
 ## Arquivos que podem ser afetados
 
 - `01-fontes/`
-- `02-areas/[domínio]/sources/`
-- `02-areas/[domínio]/notes/`
+- `01-fontes/`
+- `02-areas/[area-principal]/`
 - `90-sistema/llm-wiki/wiki/`
 
 ## Observações
 
-Se a fonte tocar múltiplos domínios, escolha um principal e crie links cruzados.
+Se a fonte tocar múltiplos áreas, escolha um principal e crie links cruzados.

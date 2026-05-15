@@ -1,8 +1,8 @@
-# System Evolution
+# Evolução do sistema
 
 ## Objetivo
 
-Prompts para analisar e propor evolução controlada do Second Brain em `90-sistema/evolution/`.
+Prompts para analisar e propor evolução controlada do Second Brain em `90-sistema/evolucao/`.
 
 ## Prompts
 
@@ -11,14 +11,14 @@ Prompts para analisar e propor evolução controlada do Second Brain em `90-sist
 - [[approve-evolution-proposal|Aprovar proposta de evolução]]
 - [[reject-evolution-proposal|Rejeitar proposta de evolução]]
 - [[implement-approved-proposal|Implementar proposta aprovada]]
-- [[create-subdomain-from-proposal|Criar subdomínio a partir de proposta]]
+- [[create-subdomain-from-proposal|Criar ajuste estrutural a partir de proposta]]
 - [[suggest-new-automation|Sugerir nova automação]]
 
 ## Regras da categoria
 
 - A IA pode propor evolução.
 - Mudanças estruturais médias ou grandes exigem confirmação humana.
-- Criar áreas, subdomínios, automações ou alterar `AGENTS.md` exige cuidado.
+- Criar áreas, subpastas, automações ou alterar `AGENTS.md` exige cuidado.
 
 ## Como usar
 

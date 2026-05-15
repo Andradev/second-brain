@@ -14,7 +14,7 @@ Não use quando o usuário já confirmou projeto ativo e quer estrutura.
 
 ## Entrada esperada
 
-Ideia, origem e domínio relacionado.
+Ideia, origem e área relacionada.
 
 ## Regras importantes
 
@@ -40,7 +40,7 @@ Contexto:
 Esta tarefa deve respeitar as regras do vault, preservar fontes originais, evitar conteúdo simulado e manter a main limpa.
 
 Entrada esperada:
-Ideia, origem e domínio relacionado.
+Ideia, origem e área relacionada.
 
 Tarefa:
 1. Verifique o escopo solicitado.

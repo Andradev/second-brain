@@ -68,7 +68,7 @@ Rotina semanal concluída com pendências claras.
 
 ## Arquivos que podem ser afetados
 
-- `04-revisoes/weekly/`
+- `04-revisoes/semanais/`
 - `01-fontes/`
 - `02-areas/`
 

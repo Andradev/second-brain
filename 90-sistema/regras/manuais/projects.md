@@ -1,4 +1,4 @@
-# Manual: Projects
+# Manual: Projetos
 
 ## Proposito
 
@@ -10,7 +10,6 @@
 - `ativos/`: projetos ativos criados ou confirmados pelo usuario.
 - `pausados/`: projetos pausados.
 - `concluidos/`: projetos concluidos.
-- `archived/`: projetos antigos ou abandonados.
 
 ## Regras
 
@@ -25,12 +24,12 @@ Quando o usuario pedir para criar um projeto ativo, usar:
 
 - `_manual.md`
 - `index.md`
-- `context.md`
-- `tasks.md`
-- `decisions.md`
-- `notes/`
-- `sources/`
-- `outputs/`
+- `contexto.md`
+- `tarefas.md`
+- `decisoes.md`
+- `notas/`
+- `fontes/`
+- `saidas/`
 
 ## Tarefas
 

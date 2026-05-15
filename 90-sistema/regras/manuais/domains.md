@@ -1,10 +1,10 @@
-# Manual: Domains
+# Manual: Áreas
 
 ## Proposito
 
 `02-areas/` representa as grandes areas da vida.
 
-Dominios guardam contexto de vida. A wiki guarda conhecimento conectado.
+Áreas guardam contexto humano organizado. A wiki interna guarda conhecimento conectado em `90-sistema/llm-wiki/wiki/`.
 
 ## Regra contra conteudo simulado
 
@@ -17,30 +17,20 @@ Conteudo dentro de dominio so deve ser criado a partir de:
 
 Exemplos em manuais nao devem virar arquivos reais.
 
-## Domain Pack
+## Áreas iniciais
 
-Cada dominio deve seguir o Domain Pack:
+- `02-areas/trabalho/`
+- `02-areas/estudos/`
+- `02-areas/fe-e-valores/`
+- `02-areas/vida-pessoal/`
+- `02-areas/ideias/`
 
-- `_manual.md`
-- `index.md`
-- `log.md`
-- `inbox/`
-- `notes/`
-- `memory/`
-- `sources/`
-- `concepts/`
-- `entities/`
-- `questions/`
-- `synthesis/`
-- `decisions/`
-- `projects/`
-
-A pasta `memory/` guarda memorias recorrentes daquele dominio. Sao lembretes persistentes que a IA deve considerar quando o assunto aparecer novamente.
+Não criar novas áreas sem necessidade real e sem proposta em `90-sistema/evolucao/proposals/`.
 
 ## Como processar
 
-Antes de mexer em um dominio, ler o `_manual.md` local.
+Antes de processar uma nota, identificar a área principal e as áreas secundárias.
 
-Sempre atualizar o `index.md` e o `log.md` quando algo relevante for criado ou processado.
+Criar ou atualizar notas somente quando houver conteúdo real.
 
-Nao criar notas, conceitos, entidades, fontes, sinteses, decisoes, projetos ou memorias simulados.
+Não criar notas, conceitos, entidades, fontes, sínteses, decisões, projetos ou memórias simulados.

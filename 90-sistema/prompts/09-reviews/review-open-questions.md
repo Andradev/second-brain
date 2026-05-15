@@ -2,7 +2,7 @@
 
 ## Objetivo
 
-Revisar perguntas pendentes em domínios e wiki.
+Revisar perguntas pendentes em áreas e wiki.
 
 ## Quando usar
 
@@ -14,7 +14,7 @@ Não use quando não há perguntas reais registradas.
 
 ## Entrada esperada
 
-Escopo de perguntas ou domínio.
+Escopo de perguntas ou área.
 
 ## Regras importantes
 
@@ -34,13 +34,13 @@ Escopo de perguntas ou domínio.
 Você é um agente de IA atuando no meu Second Brain Universal.
 
 Objetivo:
-Revisar perguntas pendentes em domínios e wiki.
+Revisar perguntas pendentes em áreas e wiki.
 
 Contexto:
 Esta tarefa deve respeitar as regras do vault, preservar fontes originais, evitar conteúdo simulado e manter a main limpa.
 
 Entrada esperada:
-Escopo de perguntas ou domínio.
+Escopo de perguntas ou área.
 
 Tarefa:
 1. Verifique o escopo solicitado.
@@ -68,7 +68,7 @@ Lista revisada de perguntas abertas, resolvidas e próximas ações.
 
 ## Arquivos que podem ser afetados
 
-- `02-areas/*/questions/`
+- `90-sistema/llm-wiki/wiki/questions/`
 - `90-sistema/llm-wiki/wiki/questions/`
 - `04-revisoes/`
 

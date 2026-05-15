@@ -68,7 +68,7 @@ Proposta pendente documentada para revisão humana.
 
 ## Arquivos que podem ser afetados
 
-- `90-sistema/evolution/proposals/pending/`
+- `90-sistema/evolucao/proposals/pending/`
 
 ## Observações
 

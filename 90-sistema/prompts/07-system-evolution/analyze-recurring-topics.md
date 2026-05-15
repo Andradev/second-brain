@@ -14,7 +14,7 @@ Não use quando não há base real suficiente.
 
 ## Entrada esperada
 
-Escopo de notas, domínios ou logs a analisar.
+Escopo de notas, áreas ou logs a analisar.
 
 ## Regras importantes
 
@@ -40,7 +40,7 @@ Contexto:
 Esta tarefa deve respeitar as regras do vault, preservar fontes originais, evitar conteúdo simulado e manter a main limpa.
 
 Entrada esperada:
-Escopo de notas, domínios ou logs a analisar.
+Escopo de notas, áreas ou logs a analisar.
 
 Tarefa:
 1. Verifique o escopo solicitado.
@@ -68,7 +68,7 @@ Análise com padrões, evidências e possíveis próximos passos.
 
 ## Arquivos que podem ser afetados
 
-- `90-sistema/evolution/`
+- `90-sistema/evolucao/`
 
 ## Observações
 

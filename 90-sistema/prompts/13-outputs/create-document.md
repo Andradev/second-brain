@@ -26,7 +26,7 @@ Objetivo do documento, público, fontes e formato.
 - Não fazer merge automático.
 - Não inventar base factual.
 - Citar ou linkar origem interna quando útil.
-- Salvar em outputs se autorizado.
+- Salvar em `05-saidas/documentos/` se autorizado.
 
 ## Prompt copiável
 
@@ -59,16 +59,16 @@ Regras:
 7. Não fazer merge automático.
 
 Resultado esperado:
-Documento final em `05-saidas/documents/`.
+Documento final em `05-saidas/documentos/`.
 ```
 
 ## Resultado esperado
 
-Documento final em `05-saidas/documents/`.
+Documento final em `05-saidas/documentos/`.
 
 ## Arquivos que podem ser afetados
 
-- `05-saidas/documents/`
+- `05-saidas/documentos/`
 
 ## Observações
 

@@ -68,7 +68,7 @@ Proposta marcada como aceita ou pronta para implementação.
 
 ## Arquivos que podem ser afetados
 
-- `90-sistema/evolution/proposals/`
+- `90-sistema/evolucao/proposals/`
 
 ## Observações
 

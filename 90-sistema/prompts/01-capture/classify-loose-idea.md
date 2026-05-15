@@ -69,7 +69,7 @@ Classificação sugerida com justificativa breve e próximo passo recomendado.
 ## Arquivos que podem ser afetados
 
 - `00-inbox/`
-- `02-areas/[domínio]/inbox/`
+- `00-inbox/`
 - `03-projetos/inbox/`
 
 ## Observações

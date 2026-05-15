@@ -68,7 +68,7 @@ Sugestão de automação documentada.
 
 ## Arquivos que podem ser afetados
 
-- `90-sistema/evolution/proposals/pending/`
+- `90-sistema/evolucao/proposals/pending/`
 - `90-sistema/automations/`
 
 ## Observações

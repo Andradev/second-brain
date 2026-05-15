@@ -14,7 +14,7 @@ Não use quando a informação for apenas uma nota comum ou hipótese.
 
 ## Entrada esperada
 
-Domínio, contexto, conteúdo da memória e gatilho de uso.
+Área, contexto, conteúdo da memória e gatilho de uso.
 
 ## Regras importantes
 
@@ -40,7 +40,7 @@ Contexto:
 Esta tarefa deve respeitar as regras do vault, preservar fontes originais, evitar conteúdo simulado e manter a main limpa.
 
 Entrada esperada:
-Domínio, contexto, conteúdo da memória e gatilho de uso.
+Área, contexto, conteúdo da memória e gatilho de uso.
 
 Tarefa:
 1. Verifique o escopo solicitado.
@@ -59,16 +59,16 @@ Regras:
 7. Não fazer merge automático.
 
 Resultado esperado:
-Memória criada no domínio correto.
+Memória criada na área correta.
 ```
 
 ## Resultado esperado
 
-Memória criada no domínio correto.
+Memória criada na área correta.
 
 ## Arquivos que podem ser afetados
 
-- `02-areas/[domínio]/memory/`
+- `90-sistema/memoria-contextual/`
 
 ## Observações
 

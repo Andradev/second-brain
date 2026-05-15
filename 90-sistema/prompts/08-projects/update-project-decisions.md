@@ -68,7 +68,7 @@ Decisão de projeto registrada.
 
 ## Arquivos que podem ser afetados
 
-- `03-projetos/ativos/[projeto]/decisions/`
+- `03-projetos/ativos/[projeto]/decisoes.md`
 
 ## Observações
 

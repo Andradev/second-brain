@@ -59,16 +59,16 @@ Regras:
 7. Não fazer merge automático.
 
 Resultado esperado:
-Revisão semanal em `04-revisoes/weekly/`.
+Revisão semanal em `04-revisoes/semanais/`.
 ```
 
 ## Resultado esperado
 
-Revisão semanal em `04-revisoes/weekly/`.
+Revisão semanal em `04-revisoes/semanais/`.
 
 ## Arquivos que podem ser afetados
 
-- `04-revisoes/weekly/`
+- `04-revisoes/semanais/`
 
 ## Observações
 

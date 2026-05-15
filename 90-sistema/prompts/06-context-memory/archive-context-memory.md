@@ -68,7 +68,7 @@ Memória removida do fluxo ativo sem perda de rastreabilidade.
 
 ## Arquivos que podem ser afetados
 
-- `02-areas/[domínio]/memory/`
+- `90-sistema/memoria-contextual/`
 - `99-arquivo/`
 
 ## Observações

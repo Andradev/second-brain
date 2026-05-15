@@ -14,7 +14,7 @@ Não use quando há só uma ocorrência isolada.
 
 ## Entrada esperada
 
-Evidências de recorrência e domínio provável.
+Evidências de recorrência e área provável.
 
 ## Regras importantes
 
@@ -40,7 +40,7 @@ Contexto:
 Esta tarefa deve respeitar as regras do vault, preservar fontes originais, evitar conteúdo simulado e manter a main limpa.
 
 Entrada esperada:
-Evidências de recorrência e domínio provável.
+Evidências de recorrência e área provável.
 
 Tarefa:
 1. Verifique o escopo solicitado.

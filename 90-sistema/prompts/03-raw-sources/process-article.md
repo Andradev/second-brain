@@ -14,7 +14,7 @@ Não use quando o usuário trouxer apenas uma opinião sem fonte.
 
 ## Entrada esperada
 
-Caminho ou conteúdo do artigo e domínio provável.
+Caminho ou conteúdo do artigo e área provável.
 
 ## Regras importantes
 
@@ -40,7 +40,7 @@ Contexto:
 Esta tarefa deve respeitar as regras do vault, preservar fontes originais, evitar conteúdo simulado e manter a main limpa.
 
 Entrada esperada:
-Caminho ou conteúdo do artigo e domínio provável.
+Caminho ou conteúdo do artigo e área provável.
 
 Tarefa:
 1. Verifique o escopo solicitado.
@@ -69,7 +69,7 @@ Artigo vira nota processada com ideias, conceitos e pendências.
 ## Arquivos que podem ser afetados
 
 - `01-fontes/`
-- `02-areas/[domínio]/sources/`
+- `01-fontes/`
 - `90-sistema/llm-wiki/wiki/concepts/`
 
 ## Observações

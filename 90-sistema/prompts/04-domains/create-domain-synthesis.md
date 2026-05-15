@@ -1,8 +1,8 @@
-# Criar síntese de domínio
+# Criar síntese de área
 
 ## Objetivo
 
-Criar ou atualizar síntese de domínio quando houver conteúdo real suficiente.
+Criar ou atualizar síntese de área quando houver conteúdo real suficiente.
 
 ## Quando usar
 
@@ -34,7 +34,7 @@ Conjunto de notas/fontes reais e tema da síntese.
 Você é um agente de IA atuando no meu Second Brain Universal.
 
 Objetivo:
-Criar ou atualizar síntese de domínio quando houver conteúdo real suficiente.
+Criar ou atualizar síntese de área quando houver conteúdo real suficiente.
 
 Contexto:
 Esta tarefa deve respeitar as regras do vault, preservar fontes originais, evitar conteúdo simulado e manter a main limpa.
@@ -59,16 +59,16 @@ Regras:
 7. Não fazer merge automático.
 
 Resultado esperado:
-Síntese útil conectando padrões reais do domínio.
+Síntese útil conectando padrões reais da área.
 ```
 
 ## Resultado esperado
 
-Síntese útil conectando padrões reais do domínio.
+Síntese útil conectando padrões reais da área.
 
 ## Arquivos que podem ser afetados
 
-- `02-areas/[domínio]/synthesis/`
+- `90-sistema/llm-wiki/wiki/synthesis/`
 - `90-sistema/llm-wiki/wiki/synthesis/`
 
 ## Observações

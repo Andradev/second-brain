@@ -14,7 +14,7 @@ Não use quando há apenas uma nota isolada.
 
 ## Entrada esperada
 
-Mês, domínios prioritários e escopo.
+Mês, áreas prioritárias e escopo.
 
 ## Regras importantes
 
@@ -40,7 +40,7 @@ Contexto:
 Esta tarefa deve respeitar as regras do vault, preservar fontes originais, evitar conteúdo simulado e manter a main limpa.
 
 Entrada esperada:
-Mês, domínios prioritários e escopo.
+Mês, áreas prioritárias e escopo.
 
 Tarefa:
 1. Verifique o escopo solicitado.

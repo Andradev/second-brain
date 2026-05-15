@@ -69,8 +69,8 @@ Nota processada com aprendizados, conceitos reais e referência à fonte.
 ## Arquivos que podem ser afetados
 
 - `01-fontes/`
-- `02-areas/[domínio]/sources/`
-- `02-areas/[domínio]/notes/`
+- `01-fontes/`
+- `02-areas/[area-principal]/`
 
 ## Observações
 

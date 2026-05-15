@@ -16,7 +16,6 @@
 ## Inbox
 
 - `90-sistema/llm-wiki/wiki/inbox/`: paginas que precisam de revisao antes de classificacao definitiva.
-- `90-sistema/llm-wiki/wiki/inbox/legacy-import/wiki/`: conteudo real importado da antiga pasta `wiki/`.
 
 ## Regras
 
@@ -27,6 +26,6 @@
 - Nao criar paginas de exemplo.
 - So criar pagina de wiki a partir de conteudo real ou pedido explicito do usuario.
 - Procurar antes de criar pagina nova.
-- Conectar dominios, projetos, fontes e mapas quando houver base real.
+- Conectar áreas, projetos, fontes e sínteses quando houver base real.
 - Registrar fontes sempre que possivel.
 - Atualizar [[90-sistema/llm-wiki/wiki/index]] e [[90-sistema/llm-wiki/wiki/log]].

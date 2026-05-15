@@ -1,4 +1,4 @@
-# Manual: Reviews
+# Manual: Revisões
 
 ## Proposito
 
@@ -6,10 +6,8 @@
 
 ## Tipos
 
-- `daily/`
-- `weekly/`
-- `monthly/`
-- `quarterly/`
+- `semanais/`
+- `mensais/`
 
 ## O que a IA deve procurar
 

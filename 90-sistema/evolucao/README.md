@@ -1,4 +1,4 @@
-# System Evolution
+# Evolução do sistema
 
 ## O que é este módulo
 
@@ -12,15 +12,14 @@ Este módulo serve para criar propostas de evolução antes de alterar a arquite
 
 A IA pode observar, analisar e propor melhorias como:
 
-- Criar novo subdomínio.
-- Criar nova pasta especializada.
-- Criar nova wiki section.
-- Criar novo mapa.
+- Criar nova área, se houver necessidade real.
+- Criar nova pasta especializada dentro da estrutura atual.
+- Criar nova seção interna da LLM Wiki.
 - Criar novo template.
 - Criar nova regra para `AGENTS.md`.
 - Criar nova automação.
-- Criar nova Context Memory.
-- Reorganizar um domínio que ficou grande demais.
+- Criar nova memória contextual.
+- Reorganizar uma área que ficou grande demais.
 
 ## Regra central
 
@@ -35,7 +34,7 @@ A IA não deve aplicar mudanças estruturais médias ou grandes sem confirmaçã
 Propostas de evolução ficam em:
 
 ```md
-90-sistema/evolution/proposals/
+90-sistema/evolucao/proposals/
 ```
 
 Estados possíveis:
@@ -49,7 +48,7 @@ Estados possíveis:
 
 - `evolution-rules.md`: regras de evolução controlada.
 - `proposal-template.md`: template geral de proposta.
-- `domain-evolution-template.md`: template para evolução de domínio.
+- `domain-evolution-template.md`: template para análise de evolução de área.
 - `recurring-topic-analysis-template.md`: template de análise de temas recorrentes.
 - `proposals/`: propostas separadas por status.
 - `logs/`: registros de análises de evolução.

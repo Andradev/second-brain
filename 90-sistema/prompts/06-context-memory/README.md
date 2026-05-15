@@ -2,7 +2,7 @@
 
 ## Objetivo
 
-Prompts para criar, consultar, atualizar e arquivar memórias contextuais por domínio.
+Prompts para criar, consultar, atualizar e arquivar memórias contextuais por área, projeto ou assunto.
 
 ## Prompts
 
@@ -14,7 +14,7 @@ Prompts para criar, consultar, atualizar e arquivar memórias contextuais por do
 
 ## Regras da categoria
 
-- Memórias ficam em `02-areas/[domínio]/memory/`.
+- Memórias reais só devem ser criadas com pedido explícito do usuário.
 - Memória contextual só nasce de pedido explícito ou evidência real de recorrência.
 - Memória não é nota comum.
 

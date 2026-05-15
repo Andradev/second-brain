@@ -10,8 +10,8 @@ Serve para centralizar comandos prontos para usar com Codex, ChatGPT ou outro ag
 
 - Prompts de captura
 - Prompts de inbox
-- Prompts de raw
-- Prompts de domínios
+- Prompts de fontes
+- Prompts de áreas
 - Prompts de wiki
 - Prompts de memórias contextuais
 - Prompts de evolução do sistema
@@ -20,7 +20,7 @@ Serve para centralizar comandos prontos para usar com Codex, ChatGPT ou outro ag
 - Prompts de automação
 - Prompts de Git e branches
 - Prompts de manutenção
-- Prompts de outputs
+- Prompts de saídas
 - Prompts de operações Codex
 - Prompt packs
 

@@ -69,7 +69,7 @@ O agente identifica se deve parar para validação humana.
 ## Arquivos que podem ser afetados
 
 - Arquivos de sistema
-- Pastas de domínio
+- Pastas de área
 - `AGENTS.md`
 - `90-sistema/`
 

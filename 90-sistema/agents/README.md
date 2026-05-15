@@ -1,4 +1,4 @@
-# 90-sistema/agent-rules
+# 90-sistema/agents
 
 ## O que é esta pasta
 
@@ -6,13 +6,13 @@ Esta pasta guarda regras específicas para agentes de IA.
 
 ## Para que ela serve
 
-Esta subpasta melhora o funcionamento do próprio Second Brain sem misturar configuração do sistema com conteúdo pessoal.
+Ela melhora o funcionamento do Second Brain sem misturar configuração técnica com conteúdo pessoal.
 
 ## Quando usar
 
-- Quando uma regra, modelo, prompt, schema ou automação precisar ser guardado de forma durável.
-- Quando o usuário quiser melhorar o funcionamento do vault.
-- Quando a IA for solicitada a atualizar a estrutura operacional do sistema.
+- Quando uma regra específica para agentes precisar ser guardada.
+- Quando a IA for solicitada a atualizar instruções operacionais.
+- Quando houver complemento técnico que não substitui `AGENTS.md`.
 
 ## Quando não usar
 
@@ -27,15 +27,9 @@ Esta subpasta melhora o funcionamento do próprio Second Brain sem misturar conf
 - Cuidados operacionais.
 - Complementos que não substituem `AGENTS.md`.
 
-## Exemplos de uso
-
-- Exemplo conceitual: guardar um modelo de frontmatter para notas processadas.
-- Exemplo conceitual: registrar um prompt recorrente usado para revisar a semana.
-- Exemplo conceitual: documentar uma regra operacional que a IA deve seguir.
-
 ## Como esta pasta se conecta com o resto do sistema
 
-Esta pasta se conecta a todo o vault porque define como o sistema funciona. Ela não substitui `AGENTS.md`, os manuais em `90-sistema/manuals/` nem os `_manual.md` dos domínios.
+Esta pasta complementa `AGENTS.md` e os manuais em `90-sistema/regras/manuais/`.
 
 ## Fluxo recomendado
 
@@ -50,8 +44,8 @@ Esta pasta se conecta a todo o vault porque define como o sistema funciona. Ela 
 - Quem usa: principalmente IA, com controle do usuário.
 - Não misture conteúdo pessoal com configuração do sistema.
 - Exemplos devem ser textuais ou placeholders dentro de templates.
-- Regras operacionais continuam em `AGENTS.md`, `90-sistema/manuals/` e `_manual.md` dos domínios.
+- Regras operacionais principais continuam em `AGENTS.md`.
 
 ## Resumo rápido
 
-Use `90-sistema/agent-rules/` para regras específicas de agentes.
+Use `90-sistema/agents/` para regras específicas de agentes.

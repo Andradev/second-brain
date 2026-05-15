@@ -29,10 +29,8 @@ Objetivo do fluxo, escopo, data ou período, e confirmação de quais etapas dev
 
 1. Usar `00-core/safe-execution-checklist.md`.
 2. Usar `11-git-branches/create-feature-branch.md`.
-3. Usar `03-raw-sources/classify-raw-inbox.md`.
-4. Usar `03-raw-sources/process-specific-source.md`.
-5. Usar `03-raw-sources/move-source-to-processed.md`.
-6. Usar `14-codex-operations/generate-change-summary.md`.
+3. Usar `uso-diario/02-processar-fontes.md`.
+4. Usar `14-codex-operations/generate-change-summary.md`.
 
 ## Prompt copiável
 
@@ -45,9 +43,7 @@ Executar, somente quando autorizado, o fluxo documentado neste pack.
 Fluxo de prompts a considerar:
 - 00-core/safe-execution-checklist.md
 - 11-git-branches/create-feature-branch.md
-- 03-raw-sources/classify-raw-inbox.md
-- 03-raw-sources/process-specific-source.md
-- 03-raw-sources/move-source-to-processed.md
+- uso-diario/02-processar-fontes.md
 - 14-codex-operations/generate-change-summary.md
 
 Regras:

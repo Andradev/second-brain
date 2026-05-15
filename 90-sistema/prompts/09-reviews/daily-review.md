@@ -59,16 +59,17 @@ Regras:
 7. Não fazer merge automático.
 
 Resultado esperado:
-Revisão diária em `04-revisoes/daily/`.
+Revisão diária leve registrada em `00-inbox/para-processar/` ou considerada na próxima revisão semanal.
 ```
 
 ## Resultado esperado
 
-Revisão diária em `04-revisoes/daily/`.
+Revisão diária leve registrada em `00-inbox/para-processar/` ou considerada na próxima revisão semanal.
 
 ## Arquivos que podem ser afetados
 
-- `04-revisoes/daily/`
+- `00-inbox/para-processar/`
+- `04-revisoes/semanais/`
 
 ## Observações
 

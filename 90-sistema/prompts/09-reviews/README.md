@@ -9,7 +9,6 @@ Prompts para revisões periódicas em `04-revisoes/` com padrões, lacunas e pr�
 - [[daily-review|Revisão diária]]
 - [[weekly-review|Revisão semanal]]
 - [[monthly-review|Revisão mensal]]
-- [[quarterly-review|Revisão trimestral]]
 - [[review-open-questions|Revisar perguntas abertas]]
 - [[review-pending-sources|Revisar fontes pendentes]]
 

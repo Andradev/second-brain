@@ -2,7 +2,7 @@
 
 ## 1. O que é uma memória contextual
 
-Uma memória contextual é uma informação recorrente que deve ser lembrada quando determinado assunto, domínio, projeto, tecnologia, pessoa ou situação aparecer novamente.
+Uma memória contextual é uma informação recorrente que deve ser lembrada quando determinado assunto, área, projeto, tecnologia, pessoa ou situação aparecer novamente.
 
 ## 2. Quando criar uma memória
 
@@ -18,19 +18,19 @@ Criar uma memória quando o usuário disser coisas como:
 
 ## 3. Onde salvar
 
-Salvar a memória no domínio mais relacionado.
+Salvar memórias reais somente quando o usuário pedir explicitamente ou disser que algo deve ser lembrado de forma recorrente.
 
 Exemplos conceituais:
 
-- Memória de trabalho → `02-areas/trabalho/memory/`
-- Memória de estudo → `02-areas/estudos/memory/`
-- Memória espiritual → `02-areas/fe-e-valores/memory/`
-- Memória de saúde → `02-areas/07-health/memory/`
-- Memória de finanças → `02-areas/08-finances/memory/`
+- Memória de trabalho: relacionada a `02-areas/trabalho/`.
+- Memória de estudo: relacionada a `02-areas/estudos/`.
+- Memória espiritual: relacionada a `02-areas/fe-e-valores/`.
+- Memória de vida pessoal: relacionada a `02-areas/vida-pessoal/`.
+- Memória de ideia recorrente: relacionada a `02-areas/ideias/`.
 
 ## 4. Como consultar
 
-Antes de responder sobre um domínio, projeto ou assunto, a IA deve verificar se existem memórias contextuais relacionadas.
+Antes de responder sobre uma área, projeto ou assunto, a IA deve verificar se existem memórias contextuais relacionadas.
 
 ## 5. Não criar memória sem motivo
 

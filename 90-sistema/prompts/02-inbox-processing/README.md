@@ -7,7 +7,7 @@ Prompts para classificar e processar entradas reais de inbox sem inventar conte�
 ## Prompts
 
 - [[process-main-inbox|Processar inbox principal]]
-- [[process-domain-inbox|Processar inbox de domínio]]
+- [[process-domain-inbox|Processar inbox de área]]
 - [[classify-inbox-items|Classificar itens de inbox]]
 - [[clean-empty-inboxes|Limpar inboxes vazios]]
 

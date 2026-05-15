@@ -68,7 +68,7 @@ Nota reorganizada e preparada para classificação posterior.
 
 ## Arquivos que podem ser afetados
 
-- `00-inbox/ ou 02-areas/[domínio]/inbox/`
+- `00-inbox/ ou 02-areas/[área]/inbox/`
 
 ## Observações
 

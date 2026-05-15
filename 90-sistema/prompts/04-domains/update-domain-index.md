@@ -1,20 +1,20 @@
-# Atualizar índice de domínio
+# Atualizar índice de área
 
 ## Objetivo
 
-Atualizar o `index.md` de um domínio com links reais e estrutura legível.
+Atualizar o `index.md` de uma área com links reais e estrutura legível.
 
 ## Quando usar
 
-Use quando notas reais foram criadas, movidas ou revisadas no domínio.
+Use quando notas reais foram criadas, movidas ou revisadas na área.
 
 ## Quando não usar
 
-Não use quando não houve alteração real no domínio.
+Não use quando não houve alteração real na área.
 
 ## Entrada esperada
 
-Domínio, arquivos relevantes e mudança ocorrida.
+Área, arquivos relevantes e mudança ocorrida.
 
 ## Regras importantes
 
@@ -34,13 +34,13 @@ Domínio, arquivos relevantes e mudança ocorrida.
 Você é um agente de IA atuando no meu Second Brain Universal.
 
 Objetivo:
-Atualizar o `index.md` de um domínio com links reais e estrutura legível.
+Atualizar o `index.md` de uma área com links reais e estrutura legível.
 
 Contexto:
 Esta tarefa deve respeitar as regras do vault, preservar fontes originais, evitar conteúdo simulado e manter a main limpa.
 
 Entrada esperada:
-Domínio, arquivos relevantes e mudança ocorrida.
+Área, arquivos relevantes e mudança ocorrida.
 
 Tarefa:
 1. Verifique o escopo solicitado.
@@ -59,16 +59,16 @@ Regras:
 7. Não fazer merge automático.
 
 Resultado esperado:
-Índice do domínio atualizado com links úteis.
+Índice da área atualizado com links úteis.
 ```
 
 ## Resultado esperado
 
-Índice do domínio atualizado com links úteis.
+Índice da área atualizado com links úteis.
 
 ## Arquivos que podem ser afetados
 
-- `02-areas/[domínio]/index.md`
+- `02-areas/[area-principal]/README.md`
 
 ## Observações
 

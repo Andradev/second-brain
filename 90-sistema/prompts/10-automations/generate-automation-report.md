@@ -68,7 +68,7 @@ Relatório de automação claro e verificável.
 
 ## Arquivos que podem ser afetados
 
-- `05-saidas/reports/`
+- `05-saidas/relatorios/`
 - `04-revisoes/`
 
 ## Observações

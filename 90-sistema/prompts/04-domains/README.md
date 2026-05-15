@@ -1,23 +1,23 @@
-# Domínios
+# Áreas
 
 ## Objetivo
 
-Prompts para criar, atualizar e organizar conteúdo dentro de Domain Packs.
+Prompts para criar, atualizar e organizar conteúdo em `02-areas/` com base real.
 
 ## Prompts
 
-- [[update-domain-index|Atualizar índice de domínio]]
-- [[create-domain-note|Criar nota de domínio]]
-- [[identify-domain-concepts|Identificar conceitos do domínio]]
-- [[identify-domain-entities|Identificar entidades do domínio]]
-- [[create-domain-synthesis|Criar síntese de domínio]]
-- [[register-domain-decision|Registrar decisão de domínio]]
-- [[register-domain-question|Registrar pergunta de domínio]]
+- [[update-domain-index|Atualizar índice de área]]
+- [[create-domain-note|Criar nota de área]]
+- [[identify-domain-concepts|Identificar conceitos da área]]
+- [[identify-domain-entities|Identificar entidades da área]]
+- [[create-domain-synthesis|Criar síntese de área]]
+- [[register-domain-decision|Registrar decisão de área]]
+- [[register-domain-question|Registrar pergunta de área]]
 
 ## Regras da categoria
 
-- Ler `_manual.md` antes de processar domínio.
-- Respeitar inbox, notes, sources, concepts, entities, questions, synthesis, decisions, projects e memory.
+- Usar as áreas atuais: trabalho, estudos, fé e valores, vida pessoal e ideias.
+- Usar `90-sistema/llm-wiki/wiki/` para conceitos, entidades, sínteses e perguntas recorrentes.
 - Criar conteúdo apenas a partir de base real.
 
 ## Como usar

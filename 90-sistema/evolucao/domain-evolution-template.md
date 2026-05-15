@@ -1,6 +1,6 @@
 ---
 title: ""
-type: "domain-evolution-analysis"
+type: "evolution-analysis"
 status: "draft"
 domain: ""
 created: YYYY-MM-DD
@@ -8,11 +8,11 @@ updated: YYYY-MM-DD
 related_topics: []
 ---
 
-# Análise de evolução de domínio
+# Análise de evolução de área
 
-## Domínio analisado
+## Área analisada
 
-Informe o domínio analisado.
+Informe a área analisada.
 
 ## Período analisado
 
@@ -20,17 +20,17 @@ Informe o período considerado.
 
 ## Sinais observados
 
-Liste padrões reais observados no domínio.
+Liste padrões reais observados na área.
 
-## Crescimento do domínio
+## Crescimento da área
 
-Descreva se o domínio está crescendo, ficando genérico demais ou acumulando conteúdo repetido.
+Descreva se a área está crescendo, ficando genérica demais ou acumulando conteúdo repetido.
 
 ## Assuntos recorrentes
 
 Liste assuntos recorrentes encontrados.
 
-## Possíveis subdomínios ou pastas
+## Possíveis subpastas ou ajustes
 
 Liste possibilidades sem criar estrutura automaticamente.
 

@@ -1,20 +1,20 @@
-# Processar inbox de domínio
+# Processar inbox de área
 
 ## Objetivo
 
-Processar entradas reais dentro do inbox de um domínio específico.
+Processar entradas reais dentro do inbox de uma área específica.
 
 ## Quando usar
 
-Use quando um domínio tiver capturas em `02-areas/[domínio]/inbox/`.
+Use quando uma área tiver capturas em `00-inbox/`.
 
 ## Quando não usar
 
-Não use quando o domínio não tiver manual ou o escopo for incerto demais sem confirmação.
+Não use quando a área não tiver manual ou o escopo for incerto demais sem confirmação.
 
 ## Entrada esperada
 
-Nome do domínio e arquivos do inbox a processar.
+Nome da área e arquivos do inbox a processar.
 
 ## Regras importantes
 
@@ -24,7 +24,7 @@ Nome do domínio e arquivos do inbox a processar.
 - Respeitar a estrutura do Second Brain.
 - Verificar branch e `git status` quando houver alteração real.
 - Não fazer merge automático.
-- Ler `_manual.md` do domínio antes.
+- Ler `_manual.md` da área antes.
 - Criar nota processada somente com base no conteúdo real.
 - Atualizar index/log quando houver processamento real.
 
@@ -34,13 +34,13 @@ Nome do domínio e arquivos do inbox a processar.
 Você é um agente de IA atuando no meu Second Brain Universal.
 
 Objetivo:
-Processar entradas reais dentro do inbox de um domínio específico.
+Processar entradas reais dentro do inbox de uma área específica.
 
 Contexto:
 Esta tarefa deve respeitar as regras do vault, preservar fontes originais, evitar conteúdo simulado e manter a main limpa.
 
 Entrada esperada:
-Nome do domínio e arquivos do inbox a processar.
+Nome da área e arquivos do inbox a processar.
 
 Tarefa:
 1. Verifique o escopo solicitado.
@@ -59,18 +59,18 @@ Regras:
 7. Não fazer merge automático.
 
 Resultado esperado:
-Entradas do domínio viram notas, perguntas ou pendências reais.
+Entradas da área viram notas, perguntas ou pendências reais.
 ```
 
 ## Resultado esperado
 
-Entradas do domínio viram notas, perguntas ou pendências reais.
+Entradas da área viram notas, perguntas ou pendências reais.
 
 ## Arquivos que podem ser afetados
 
-- `02-areas/[domínio]/inbox/`
-- `02-areas/[domínio]/notes/`
-- `02-areas/[domínio]/log.md`
+- `00-inbox/`
+- `02-areas/[area-principal]/`
+- `02-areas/[area-principal]/README.md`
 
 ## Observações
 

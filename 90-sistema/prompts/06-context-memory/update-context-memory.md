@@ -68,7 +68,7 @@ Memória revisada e mais fiel ao contexto atual.
 
 ## Arquivos que podem ser afetados
 
-- `02-areas/[domínio]/memory/`
+- `90-sistema/memoria-contextual/`
 
 ## Observações
 

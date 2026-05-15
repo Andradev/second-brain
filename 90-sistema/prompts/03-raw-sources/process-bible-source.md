@@ -59,12 +59,12 @@ Regras:
 7. Não fazer merge automático.
 
 Resultado esperado:
-Fonte bíblica processada no domínio espiritualidade/valores quando adequado.
+Fonte bíblica processada na área espiritualidade/valores quando adequado.
 ```
 
 ## Resultado esperado
 
-Fonte bíblica processada no domínio espiritualidade/valores quando adequado.
+Fonte bíblica processada na área espiritualidade/valores quando adequado.
 
 ## Arquivos que podem ser afetados
 

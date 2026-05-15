@@ -20,11 +20,11 @@
 
 [[02-inbox-processing/README]]
 
-## Raw Sources
+## Fontes
 
 [[03-raw-sources/README]]
 
-## Domínios
+## Áreas
 
 [[04-domains/README]]
 
@@ -60,7 +60,7 @@
 
 [[12-maintenance/README]]
 
-## Outputs
+## Saídas
 
 [[13-outputs/README]]
 

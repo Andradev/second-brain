@@ -4,18 +4,18 @@
 
 ## Fontes analisadas
 
-## Domínios analisados
+## Áreas analisadas
 
 ## Tópicos mais recorrentes
 
-| Tópico | Ocorrências | Domínios relacionados | Tipo | Recomendação |
+| Tópico | Ocorrências | Áreas relacionadas | Tipo | Recomendação |
 |---|---:|---|---|---|
 
 ## Possíveis novos conceitos
 
 ## Possíveis novas memórias contextuais
 
-## Possíveis novos subdomínios
+## Possíveis novas áreas ou subpastas
 
 ## Possíveis melhorias em templates
 

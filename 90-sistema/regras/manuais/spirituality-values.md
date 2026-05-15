@@ -1,8 +1,8 @@
-# Manual: Spirituality & Values
+# Manual: Fé e valores
 
 ## Proposito
 
-Manual operacional resumido para a area [[02-areas/fe-e-valores/index|Spirituality & Values]].
+Manual operacional resumido para `02-areas/fe-e-valores/`.
 
 ## Regra contra conteudo simulado
 
@@ -19,7 +19,7 @@ Ao processar uma nota espiritual real:
 3. Identificar passagens biblicas mencionadas.
 4. Identificar aplicacoes praticas.
 5. Atualizar entidades, conceitos, perguntas e sinteses somente quando houver base real.
-6. Conectar com diario, self e mapas quando necessario.
+6. Conectar com vida pessoal, estudos, projetos ou sínteses quando houver base real.
 
 ## Consultas
 

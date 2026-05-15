@@ -6,13 +6,13 @@ Esta pasta guarda modelos de arquivos.
 
 ## Para que ela serve
 
-Esta subpasta melhora o funcionamento do próprio Second Brain sem misturar configuração do sistema com conteúdo pessoal.
+Ela guarda modelos reutilizáveis sem transformar exemplos em conteúdo real.
 
 ## Quando usar
 
-- Quando uma regra, modelo, prompt, schema ou automação precisar ser guardado de forma durável.
-- Quando o usuário quiser melhorar o funcionamento do vault.
-- Quando a IA for solicitada a atualizar a estrutura operacional do sistema.
+- Quando um modelo genérico precisar ser reutilizado.
+- Quando uma estrutura de frontmatter ou documento precisar de placeholder.
+- Quando a IA for solicitada a criar ou ajustar templates.
 
 ## Quando não usar
 
@@ -27,15 +27,9 @@ Esta subpasta melhora o funcionamento do próprio Second Brain sem misturar conf
 - Estruturas reutilizáveis.
 - Placeholders genéricos dentro de templates.
 
-## Exemplos de uso
-
-- Exemplo conceitual: guardar um modelo de frontmatter para notas processadas.
-- Exemplo conceitual: registrar um prompt recorrente usado para revisar a semana.
-- Exemplo conceitual: documentar uma regra operacional que a IA deve seguir.
-
 ## Como esta pasta se conecta com o resto do sistema
 
-Esta pasta se conecta a todo o vault porque define como o sistema funciona. Ela não substitui `AGENTS.md`, os manuais em `90-sistema/manuals/` nem os `_manual.md` dos domínios.
+Esta pasta complementa `AGENTS.md`, os manuais em `90-sistema/regras/manuais/` e a biblioteca `90-sistema/prompts/`.
 
 ## Fluxo recomendado
 
@@ -50,7 +44,7 @@ Esta pasta se conecta a todo o vault porque define como o sistema funciona. Ela 
 - Quem usa: usuário e IA.
 - Não misture conteúdo pessoal com configuração do sistema.
 - Exemplos devem ser textuais ou placeholders dentro de templates.
-- Regras operacionais continuam em `AGENTS.md`, `90-sistema/manuals/` e `_manual.md` dos domínios.
+- Regras operacionais principais continuam em `AGENTS.md`.
 
 ## Resumo rápido
 

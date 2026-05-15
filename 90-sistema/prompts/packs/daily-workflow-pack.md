@@ -29,10 +29,9 @@ Objetivo do fluxo, escopo, data ou período, e confirmação de quais etapas dev
 
 1. Usar `00-core/use-branch-not-main.md`.
 2. Usar `00-core/safe-execution-checklist.md`.
-3. Usar `02-inbox-processing/process-main-inbox.md`.
-4. Usar `03-raw-sources/classify-raw-inbox.md`.
-5. Usar `09-reviews/daily-review.md`.
-6. Usar `14-codex-operations/generate-change-summary.md`.
+3. Usar `uso-diario/01-processar-inbox.md`.
+4. Usar `uso-diario/02-processar-fontes.md`.
+5. Usar `14-codex-operations/generate-change-summary.md`.
 
 ## Prompt copiável
 
@@ -45,9 +44,8 @@ Executar, somente quando autorizado, o fluxo documentado neste pack.
 Fluxo de prompts a considerar:
 - 00-core/use-branch-not-main.md
 - 00-core/safe-execution-checklist.md
-- 02-inbox-processing/process-main-inbox.md
-- 03-raw-sources/classify-raw-inbox.md
-- 09-reviews/daily-review.md
+- uso-diario/01-processar-inbox.md
+- uso-diario/02-processar-fontes.md
 - 14-codex-operations/generate-change-summary.md
 
 Regras:

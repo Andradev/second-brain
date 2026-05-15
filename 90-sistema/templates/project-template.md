@@ -26,6 +26,6 @@ tags: []
 
 ## Fontes
 
-## Outputs
+## Saídas
 
 ## Proximos passos

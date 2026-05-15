@@ -1,8 +1,8 @@
-# Manual: Relationships & CRM
+# Manual: Vida pessoal e relações
 
 ## Proposito
 
-Manual operacional resumido para [[02-areas/06-relationships-crm/index|Relationships & CRM]].
+Manual operacional resumido para assuntos pessoais e relações dentro de `02-areas/vida-pessoal/`.
 
 ## Processamento
 
@@ -20,7 +20,7 @@ Para cada pessoa importante, registrar:
 ## Conexoes frequentes
 
 - Trabalho
-- Igreja
-- Faculdade
-- Projetos
-- Diario pessoal
+- Estudos
+- Fé e valores
+- Projetos confirmados
+- Vida pessoal

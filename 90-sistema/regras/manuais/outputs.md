@@ -1,18 +1,16 @@
-# Manual: Outputs
+# Manual: Saídas
 
 ## Proposito
 
 `05-saidas/` guarda saidas finais ou reutilizaveis geradas pela IA.
 
-## Subpastas
+## Subpastas atuais
 
-- `documents/`
-- `summaries/`
-- `study-guides/`
+- `documentos/`
+- `resumos/`
+- `guias/`
 - `prompts/`
-- `emails/`
-- `reports/`
-- `presentations/`
+- `relatorios/`
 
 ## Regras
 

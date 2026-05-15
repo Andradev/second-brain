@@ -2,7 +2,7 @@
 
 ## O que é este módulo
 
-Context Memories são memórias recorrentes por assunto, domínio, projeto, tecnologia, pessoa ou situação.
+Memórias contextuais são lembranças recorrentes por assunto, área, projeto, tecnologia, pessoa ou situação.
 
 Elas existem para guardar lembretes práticos que a IA deve considerar quando um contexto aparecer novamente.
 
@@ -28,13 +28,15 @@ Uma Context Memory não é uma nota comum, fonte bruta, tarefa ou projeto.
 
 Ela é um lembrete persistente ligado a um contexto.
 
-## Onde ficam as memórias
+## Onde ficam as regras e templates
 
-As memórias devem ser salvas no domínio mais relacionado:
+As regras e templates ficam neste módulo:
 
 ```md
-02-areas/[domínio]/memory/
+90-sistema/memoria-contextual/
 ```
+
+Memórias reais só devem ser criadas quando o usuário pedir explicitamente ou disser que algo deve ser lembrado de forma recorrente.
 
 ## Arquivos deste módulo
 

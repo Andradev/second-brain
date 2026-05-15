@@ -59,16 +59,16 @@ Regras:
 7. Não fazer merge automático.
 
 Resultado esperado:
-Relatório final em `05-saidas/reports/`.
+Relatório final em `05-saidas/relatorios/`.
 ```
 
 ## Resultado esperado
 
-Relatório final em `05-saidas/reports/`.
+Relatório final em `05-saidas/relatorios/`.
 
 ## Arquivos que podem ser afetados
 
-- `05-saidas/reports/`
+- `05-saidas/relatorios/`
 
 ## Observações
 

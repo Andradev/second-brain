@@ -70,7 +70,7 @@ Lista de ações extraídas, com pendências e dúvidas.
 
 - `00-inbox/`
 - `03-projetos/inbox/`
-- `02-areas/[domínio]/questions/`
+- `90-sistema/llm-wiki/wiki/questions/`
 
 ## Observações
 

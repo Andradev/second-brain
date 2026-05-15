@@ -6,7 +6,7 @@ Consultar memórias relevantes antes de responder ou operar em um assunto.
 
 ## Quando usar
 
-Use quando uma tarefa toca domínio, projeto ou assunto com possíveis memórias.
+Use quando uma tarefa toca área, projeto ou assunto com possíveis memórias.
 
 ## Quando não usar
 
@@ -14,7 +14,7 @@ Não use quando a pergunta é totalmente fora do vault e sem contexto recorrente
 
 ## Entrada esperada
 
-Tema da tarefa e domínio provável.
+Tema da tarefa e área provável.
 
 ## Regras importantes
 
@@ -40,7 +40,7 @@ Contexto:
 Esta tarefa deve respeitar as regras do vault, preservar fontes originais, evitar conteúdo simulado e manter a main limpa.
 
 Entrada esperada:
-Tema da tarefa e domínio provável.
+Tema da tarefa e área provável.
 
 Tarefa:
 1. Verifique o escopo solicitado.
@@ -68,7 +68,7 @@ Resposta ou ação considera memórias existentes.
 
 ## Arquivos que podem ser afetados
 
-- `02-areas/[domínio]/memory/`
+- `90-sistema/memoria-contextual/`
 
 ## Observações
 

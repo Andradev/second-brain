@@ -1,15 +1,14 @@
-# Manual: Maps
+# Manual: START-HERE
 
 ## Proposito
 
-`START-HERE.md/` guarda mapas de visao.
+`START-HERE.md` é a entrada visual e curta do vault.
 
-Mapas ajudam a navegar pelo todo. Eles nao sao deposito de notas.
+Ele ajuda o usuário a lembrar onde capturar e onde consultar cada tipo de conteúdo.
 
 ## Regras
 
-- Manter mapas curtos e navegaveis.
+- Manter a entrada curta e navegável.
 - Nao listar conteudo simulado como se ja existisse no vault.
-- Linkar dominios, conceitos, entidades, projetos e sinteses somente quando houver conteudo real.
-- Atualizar mapas quando uma area crescer.
-- Se um mapa ficar grande, dividir em submapas.
+- Não transformar `START-HERE.md` em índice técnico.
+- Se uma área crescer, propor melhoria em `90-sistema/evolucao/proposals/` antes de mudar a estrutura.
