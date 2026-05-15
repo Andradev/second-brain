@@ -4,229 +4,251 @@
 
 Este vault e um Second Brain Universal com IA.
 
-Ele existe para capturar, organizar, conectar e sintetizar o conhecimento pessoal do usuario ao longo da vida. A IA deve atuar como bibliotecaria, analista de conhecimento, arquiteta de informacao, mentora de estudo e mantenedora de uma wiki viva.
+Ele existe para capturar, organizar, conectar e sintetizar o conhecimento pessoal do usuario ao longo da vida. A IA atua como bibliotecaria, analista de conhecimento, arquiteta de informacao, mentora de estudo e mantenedora de uma wiki viva.
 
-## Principios centrais
+## Principio central
 
-1. O usuario captura de forma simples.
-2. A IA organiza de forma estruturada.
-3. Conteudo real so pode nascer de nota real, fonte real, pedido explicito do usuario ou conteudo ja existente no vault.
-4. Fontes originais devem ser preservadas.
-5. O conhecimento deve ser conectado com links internos.
-6. A wiki deve ser viva, mas nao ficticia.
-7. Toda area importante deve ter manual proprio.
-8. Toda alteracao relevante deve ser registrada em `log.md`.
-9. O sistema deve crescer sem virar bagunca.
-10. A IA deve criar contexto, nao apenas armazenar texto.
+Captura simples.
+
+Organizacao depois.
+
+LLM Wiki por baixo.
+
+O usuario nao precisa entender a arquitetura inteira para usar o sistema. A interface humana deve ser pequena, clara e facil de lembrar.
+
+## Interface humana simplificada
+
+O usuario deve interagir principalmente com:
+
+- `00-inbox/`
+- `01-fontes/`
+- `02-areas/`
+- `03-projetos/`
+- `04-revisoes/`
+- `05-saidas/`
+
+A parte tecnica fica em:
+
+- `90-sistema/`
+
+Coisas antigas, pausadas, descartadas ou incertas ficam em:
+
+- `99-arquivo/`
+
+## Regra de captura
+
+Se veio da cabeca do usuario, vai para `00-inbox/`.
+
+Se veio de fonte externa, documento, video, artigo, PDF, aula, print, transcricao ou material de referencia, vai para `01-fontes/inbox/`.
+
+Se ja virou projeto candidato claro, vai para `03-projetos/inbox/`.
+
+Depois disso, a IA organiza.
+
+## Estrutura principal
+
+- `START-HERE.md`: entrada visual e curta para o usuario.
+- `README.md`: explicacao simples do sistema.
+- `AGENTS.md`: regras operacionais para agentes de IA.
+- `00-inbox/`: ideias soltas, duvidas, pensamentos e capturas rapidas.
+- `01-fontes/`: fontes brutas externas preservadas.
+- `02-areas/`: vida organizada em poucas areas humanas.
+- `03-projetos/`: projetos candidatos, ativos, pausados e concluidos.
+- `04-revisoes/`: revisoes semanais e mensais.
+- `05-saidas/`: materiais finais.
+- `90-sistema/`: nucleo tecnico, prompts, templates, regras e LLM Wiki.
+- `99-arquivo/`: conteudo antigo, pausado, descartado ou que precisa de revisao.
+
+Nao deve existir `01-raw/`, `02-domains/`, `03-wiki/`, `04-maps/`, `05-projects/`, `06-outputs/`, `07-reviews/`, `90-system/` ou `99-archive/` soltos na raiz.
+
+## Nucleo LLM Wiki
+
+O LLM Wiki continua existindo internamente em:
+
+`90-sistema/llm-wiki/`
+
+A IA deve usar esse nucleo para manter:
+
+- fontes brutas preservadas
+- fontes processadas
+- notas organizadas
+- conceitos
+- entidades
+- sinteses
+- perguntas abertas
+- comparacoes
+- indices
+- logs
+- links internos
+- atualizacao incremental
+
+O usuario nao deve ser obrigado a navegar pelo nucleo tecnico para usar o vault.
+
+## Relacao entre interface e LLM Wiki
+
+- `01-fontes/` e a camada de fontes brutas.
+- `02-areas/` e a camada de notas humanas organizadas por contexto de vida.
+- `90-sistema/llm-wiki/wiki/` e a camada de conhecimento conectado.
+
+Fluxo esperado:
+
+1. O usuario captura em `00-inbox/` ou `01-fontes/inbox/`.
+2. A IA classifica quando for solicitada.
+3. A IA preserva a fonte original.
+4. A IA cria notas organizadas em `02-areas/` somente com base real.
+5. A IA atualiza conceitos, entidades, sinteses, perguntas e comparacoes em `90-sistema/llm-wiki/wiki/`.
+6. A IA atualiza indices e logs relevantes.
 
 ## Regra contra conteudo simulado
 
 A IA nunca deve criar conteudo ficticio, simulado ou baseado apenas em exemplos de documentacao.
 
-Exemplos escritos em manuais, prompts ou templates servem apenas para orientar comportamento.
+Exemplos em manuais, prompts e templates servem apenas para orientar comportamento.
 
-Nao criar arquivos sobre pessoas, personagens, projetos, conceitos, estudos, devocionais, fontes, decisoes, sinteses ou perguntas se eles nao vierem de uma fonte real do usuario.
+Nao criar arquivos sobre pessoas, personagens, projetos, conceitos, estudos, devocionais, fontes, decisoes, sinteses ou perguntas se eles nao vierem de:
 
-A IA so pode criar notas, conceitos, entidades, projetos, fontes ou sinteses quando:
-
-1. O usuario adicionar uma fonte real.
-2. O usuario escrever uma nota real.
-3. O usuario pedir explicitamente para criar aquele conteudo.
-4. O conteudo ja existir no vault e precisar ser processado.
+1. Fonte real adicionada pelo usuario.
+2. Nota real escrita pelo usuario.
+3. Pedido explicito do usuario.
+4. Conteudo real ja existente no vault.
 
 Se precisar demonstrar uma estrutura, usar placeholders genericos dentro de templates, nunca arquivos reais.
 
-Exemplo correto:
+## Fontes
 
-- `90-system/templates/entity-template.md`
+Fonte externa nova entra em:
 
-Exemplo incorreto:
+`01-fontes/inbox/`
 
-- `03-wiki/entities/davi.md`, se o usuario nao adicionou uma fonte real sobre Davi.
+Fonte ja usada pela IA vai para:
 
-## Estrutura principal
+`01-fontes/processadas/`
 
-- `00-inbox/`: entrada livre e rapida para capturas ainda caoticas.
-- `01-raw/`: fontes brutas e originais.
-- `02-domains/`: grandes areas da vida humana.
-- `03-wiki/`: conhecimento estruturado e conectado.
-- `04-maps/`: mapas de navegacao e visao geral.
-- `05-projects/`: projetos confirmados ou em avaliacao.
-- `06-outputs/`: saidas finais geradas pela IA.
-- `07-reviews/`: revisoes periodicas.
-- `90-system/`: sistema interno, manuais, templates e regras.
-- `99-archive/`: conteudo arquivado, antigo ou que precisa de revisao.
+Fonte antiga ou nao usada agora vai para:
 
-Nao deve existir `raw/` solto na raiz.
+`01-fontes/arquivadas/`
 
-Nao deve existir `wiki/` solto na raiz.
+Fontes brutas sao originais e nao devem ser reescritas. Ao processar uma fonte, criar notas derivadas em outro lugar e preservar o arquivo original.
 
-## Fluxo profissional
+## Areas
 
-O fluxo principal do sistema e:
+As areas visiveis comecam simples:
 
-Capturar -> Classificar -> Processar -> Conectar -> Sintetizar -> Revisar -> Reutilizar
+- `02-areas/trabalho/`
+- `02-areas/estudos/`
+- `02-areas/fe-e-valores/`
+- `02-areas/vida-pessoal/`
+- `02-areas/ideias/`
 
-1. Capturar: o usuario joga uma ideia em `00-inbox/` ou uma fonte em `01-raw/inbox/`.
-2. Classificar: a IA identifica dominio principal, dominios secundarios, tipo de fonte, conceitos, entidades e projetos relacionados.
-3. Processar: a IA cria uma nota limpa no local correto somente a partir de conteudo real.
-4. Conectar: a IA cria links internos com conceitos, entidades, projetos, decisoes e fontes reais.
-5. Sintetizar: a IA atualiza paginas de sintese somente quando houver conteudo real suficiente.
-6. Revisar: a IA identifica padroes, lacunas, notas orfas e proximos passos.
-7. Reutilizar: o usuario consulta o proprio conhecimento acumulado para estudar, decidir e construir.
+Nao criar novas areas sem necessidade real. Se uma area crescer demais, criar proposta em `90-sistema/evolucao/proposals/` antes de mudar a estrutura.
 
-## Regras de seguranca
+## Projetos
 
-1. Nao apagar conteudo real existente sem pedido explicito.
-2. Nao sobrescrever arquivos existentes sem preservar ou mesclar o conteudo util.
-3. Se uma pasta ja existir, manter a pasta e complementar a estrutura.
-4. Fontes brutas em `01-raw/` sao fontes originais e nao devem ser reescritas.
-5. Se houver duvida sobre classificacao, manter em inbox ou mover para `99-archive/review-needed/`.
-6. Se uma nota tocar em mais de uma area, escolher uma area principal e criar links cruzados.
-7. Se nao houver certeza se algo e real, nao apagar: mover para `99-archive/review-needed/` e registrar no relatorio.
+Nao criar projeto ativo automaticamente.
 
-## Fluxo de fontes brutas
+Ideia quase pronta para virar projeto vai para `03-projetos/inbox/`.
 
-### 1. Captura inicial
+Projeto ativo so entra em `03-projetos/ativos/` quando o usuario pedir explicitamente ou confirmar que o projeto existe.
 
-Toda fonte nova entra primeiro em:
+Projetos pausados ficam em `03-projetos/pausados/`.
 
-- `01-raw/inbox/`
+Projetos concluidos ficam em `03-projetos/concluidos/`.
 
-ou diretamente no inbox da categoria, se a categoria ja for clara:
+## Revisoes
 
-- Artigo novo: `01-raw/articles/inbox/`
-- Video novo: `01-raw/videos/inbox/`
-- Aula nova: `01-raw/classes/inbox/`
-- Fonte de trabalho: `01-raw/work/inbox/`
-- Fonte biblica: `01-raw/bible/inbox/`
-- Reuniao: `01-raw/meetings/inbox/`
+Revisoes periodicas ficam em `04-revisoes/`.
 
-### 2. Classificacao
+Comecar simples:
 
-A IA identifica o tipo da fonte e move para o inbox da categoria correta.
+- `04-revisoes/semanais/`
+- `04-revisoes/mensais/`
 
-### 3. Processamento
+Uma revisao deve observar o que entrou, padroes recorrentes, fontes pendentes, tarefas, duvidas, projetos que precisam de atencao e temas que merecem virar wiki interna.
 
-Ao processar uma fonte, a IA deve:
+## Saidas
 
-1. Ler a fonte bruta.
-2. Criar nota processada no dominio correto em `02-domains/`, se houver conteudo real.
-3. Criar ou atualizar conceitos em `03-wiki/concepts/`, somente quando forem reais e vierem da fonte.
-4. Criar ou atualizar entidades em `03-wiki/entities/`, somente quando forem reais e vierem da fonte.
-5. Criar ou atualizar sinteses em `03-wiki/synthesis/`, somente quando houver conteudo real suficiente.
-6. Criar links internos.
-7. Atualizar `index.md` e `log.md`.
-8. Registrar a fonte usada.
-9. Mover a fonte bruta para `processed/` da propria categoria.
+Materiais prontos ficam em `05-saidas/`.
 
-### 4. Arquivamento
+Use esta pasta para documentos finais, prompts uteis, resumos, guias e relatorios.
 
-Se uma fonte for duplicada, antiga ou nao for util agora, mover para `archive/` da categoria correspondente.
+Rascunhos e capturas soltas nao devem comecar aqui.
 
-Nao usar `01-raw/processed/` global.
+## Context memories
 
-## Estrutura de 01-raw
+Memorias contextuais sao lembrancas recorrentes por dominio, contexto ou assunto.
 
-Cada categoria de fonte deve ter:
+A IA deve verificar memorias relacionadas antes de responder sobre um assunto, processar uma nota ou trabalhar em um projeto.
 
-- `inbox/`
-- `processed/`
-- `archive/`
+Memorias contextuais so devem ser criadas quando o usuario pedir explicitamente ou disser que algo deve ser lembrado de forma recorrente.
 
-Categorias:
+As regras e templates ficam em:
 
-- `articles/`
-- `videos/`
-- `books/`
-- `bible/`
-- `classes/`
-- `work/`
-- `meetings/`
-- `images/`
-- `assets/`
+`90-sistema/memoria-contextual/`
 
-## Regras de processamento de notas
+Nao criar memorias ficticias.
 
-Ao processar uma nova nota:
-
-1. Ler o conteudo.
-2. Identificar o tipo da nota.
-3. Identificar o dominio principal.
-4. Identificar dominios secundarios.
-5. Identificar conceitos reais.
-6. Identificar entidades reais.
-7. Identificar projetos relacionados, sem criar projeto ativo automaticamente.
-8. Criar ou atualizar nota processada no local correto.
-9. Criar links internos com `[[wikilinks]]`.
-10. Atualizar `index.md` da area.
-11. Atualizar `log.md` da area.
-12. Atualizar `03-wiki/` quando houver conceito ou entidade real relevante.
-13. Atualizar `synthesis/` quando o tema for recorrente e houver base real suficiente.
-14. Registrar duvidas em `questions/` somente quando surgirem de conteudo real.
-15. Preservar a fonte original.
-
-## Regras para classificacao
-
-- Pensamento rapido: `00-inbox/`.
-- Fonte original: `01-raw/`.
-- Area da vida: `02-domains/`.
-- Conceito reutilizavel real: `03-wiki/concepts/`.
-- Pessoa, personagem, empresa, ferramenta, lugar ou projeto real: `03-wiki/entities/`.
-- Visao geral: `04-maps/`.
-- Projeto ainda nao confirmado: `05-projects/inbox/` ou `02-domains/05-projects-ideas/`.
-- Projeto ativo confirmado: `05-projects/active/`.
-- Saida final: `06-outputs/`.
-- Revisao: `07-reviews/`.
-- Conteudo antigo ou incerto: `99-archive/`.
-
-## Regras para projetos
-
-- Nao criar projeto automaticamente so porque ele apareceu em exemplo, prompt ou manual.
-- Se o usuario mencionar um possivel projeto em uma nota, registrar primeiro em `05-projects/inbox/` ou `02-domains/05-projects-ideas/`.
-- Criar projeto ativo em `05-projects/active/` somente quando o usuario pedir explicitamente ou confirmar que o projeto existe.
-
-## Context Memories
-
-Context Memories sao memorias recorrentes por dominio, contexto ou assunto.
-
-Antes de responder sobre um assunto, processar uma nota ou trabalhar em um projeto, o agente deve verificar se existem memorias contextuais relacionadas.
-
-As memorias ficam em:
-
-`02-domains/[dominio]/memory/`
-
-Uma memoria so deve ser criada quando o usuario pedir explicitamente ou quando ele disser que algo deve ser lembrado de forma recorrente.
-
-A IA nao deve criar memorias ficticias.
-
-## System Evolution
+## Evolucao do sistema
 
 System Evolution e o modulo de evolucao controlada do Second Brain.
 
-A IA deve observar padroes, assuntos recorrentes, dominios que cresceram demais, templates faltantes, automacoes possiveis e oportunidades de melhoria.
+A IA pode observar padroes, assuntos recorrentes, areas que cresceram demais, templates faltantes, automacoes possiveis e oportunidades de melhoria.
 
-A IA pode criar propostas em:
+Propostas ficam em:
 
-`90-system/evolution/proposals/pending/`
+`90-sistema/evolucao/proposals/`
 
 A IA nao deve implementar mudancas estruturais medias ou grandes sem confirmacao humana.
 
-Mudancas como criar novo dominio, alterar `AGENTS.md`, reorganizar muitos arquivos ou criar nova automacao exigem aprovacao explicita.
+Mudancas como criar nova area, alterar `AGENTS.md`, reorganizar muitos arquivos ou criar automacao exigem aprovacao explicita.
 
-## Biblioteca de Prompts
+## Biblioteca de prompts
 
-A pasta `90-system/prompts/` contem modelos de prompts reutilizaveis.
+A biblioteca fica em:
 
-Esses prompts servem para orientar tarefas operacionais no Second Brain.
+`90-sistema/prompts/`
 
-O agente pode consultar essa biblioteca para escolher o prompt mais adequado para uma tarefa.
-
-O agente nao deve executar todos os prompts automaticamente.
-
-O agente deve respeitar o escopo de cada prompt.
+Esses prompts orientam tarefas operacionais. A IA pode consultar a biblioteca para escolher o prompt adequado, mas nao deve executar todos automaticamente.
 
 Prompts que alteram conteudo real devem ser executados em branch separada, nunca diretamente na main.
+
+## Templates
+
+Templates ficam em:
+
+`90-sistema/templates/`
+
+Templates podem conter placeholders genericos. Eles nao contam como conteudo real.
+
+## Regras de seguranca
+
+1. Nao apagar conteudo real sem pedido explicito.
+2. Nao sobrescrever arquivos existentes sem preservar ou mesclar o conteudo util.
+3. Se uma pasta ja existir, manter a pasta e complementar a estrutura.
+4. Se houver duvida sobre classificacao, manter em `00-inbox/para-processar/`, `01-fontes/inbox/` ou mover para `99-arquivo/revisar/`.
+5. Se uma nota tocar em mais de uma area, escolher uma area principal e criar links cruzados.
+6. Se nao houver certeza se algo e real, nao apagar.
+7. Nao processar fontes sem pedido ou contexto claro.
+8. Nao executar automacoes sem pedido explicito.
+9. Nao fazer merge automatico.
+10. Manter a main limpa quando o vault estiver sendo usado como template.
+
+## Regras de processamento
+
+Ao processar uma nota ou fonte real:
+
+1. Ler o conteudo.
+2. Identificar o tipo.
+3. Identificar area principal.
+4. Identificar areas secundarias.
+5. Identificar conceitos reais.
+6. Identificar entidades reais.
+7. Identificar projetos relacionados sem criar projeto ativo automaticamente.
+8. Criar ou atualizar nota processada no local correto.
+9. Criar links internos com `[[wikilinks]]`.
+10. Atualizar indices quando houver valor real.
+11. Atualizar `90-sistema/llm-wiki/wiki/` quando houver conceito, entidade, pergunta, comparacao ou sintese relevante.
+12. Registrar duvidas somente quando surgirem de conteudo real.
+13. Preservar a fonte original.
 
 ## Regras de links
 
@@ -234,16 +256,16 @@ Use links internos no formato `[[nome-do-conceito]]`.
 
 Sempre que possivel, conecte conteudos reais:
 
-- Nota com conceito.
-- Conceito com entidade.
-- Entidade com projeto.
-- Projeto com decisao.
-- Fonte com sintese.
-- Diario com aprendizado.
-- Estudo com projeto pratico.
-- Devocional com personagem biblico.
-- Trabalho com regra de negocio.
-- Ideia com possivel projeto.
+- nota com conceito
+- conceito com entidade
+- entidade com projeto
+- projeto com decisao
+- fonte com sintese
+- diario com aprendizado
+- estudo com projeto pratico
+- devocional com personagem biblico
+- trabalho com regra de negocio
+- ideia com possivel projeto
 
 Nao criar a pagina linkada se ela ainda nao tiver conteudo real ou pedido explicito do usuario.
 
@@ -258,10 +280,11 @@ Nao criar a pagina linkada se ela ainda nao tiver conteudo real ou pedido explic
 - Ser claro e pratico.
 - Nao inventar informacoes que nao estao nas fontes.
 - Quando fizer inferencia, deixar claro.
+- Evitar linguagem tecnica desnecessaria para o usuario.
 
 ## Frontmatter padrao
 
-Todas as notas processadas devem usar este frontmatter:
+Notas processadas devem usar este frontmatter:
 
 ```yaml
 ---
@@ -325,7 +348,11 @@ tags: []
 
 ## Logs
 
-Sempre que processar algo, registrar no `log.md` relevante:
+Atualizacoes da LLM Wiki devem ser registradas em:
+
+`90-sistema/llm-wiki/log.md`
+
+Quando fizer sentido, use o formato:
 
 ```md
 ## YYYY-MM-DD
@@ -337,56 +364,37 @@ Sempre que processar algo, registrar no `log.md` relevante:
 - Pendencias:
 ```
 
-## Domain Pack
-
-Cada dominio em `02-domains/` deve conter:
-
-- `_manual.md`
-- `index.md`
-- `log.md`
-- `inbox/`
-- `notes/`
-- `memory/`
-- `sources/`
-- `concepts/`
-- `entities/`
-- `questions/`
-- `synthesis/`
-- `decisions/`
-- `projects/`
-
-Antes de processar uma nota dentro de um dominio, leia o `_manual.md` daquele dominio.
-
-A pasta `memory/` guarda memorias recorrentes daquele dominio. Sao lembretes persistentes que a IA deve considerar quando o assunto aparecer novamente.
-
-Conteudo dentro do dominio so deve ser criado a partir de notas reais, fontes reais, conteudo ja existente ou pedido explicito do usuario.
+Nao criar relatorios historicos soltos na raiz.
 
 ## Ordem de consulta antes de responder
 
-Quando receber uma tarefa, o agente deve considerar:
+Quando receber uma tarefa, considerar:
 
 1. `AGENTS.md`
-2. Manuais em `90-system/manuals/`
-3. Manual do dominio relacionado
-4. Context Memories relacionadas
-5. Wiki relacionada
-6. Projetos relacionados
-7. Fontes relacionadas
+2. `START-HERE.md` e `README.md`, se a duvida for sobre uso geral
+3. regras em `90-sistema/regras/`
+4. manuais ou templates relevantes em `90-sistema/`
+5. memorias contextuais relacionadas
+6. paginas relevantes em `02-areas/`
+7. wiki interna em `90-sistema/llm-wiki/wiki/`
+8. projetos relacionados em `03-projetos/`
+9. fontes relacionadas em `01-fontes/`
 
 ## Regras para consultas
 
-Ao responder uma pergunta:
+Ao responder uma pergunta baseada no vault:
 
-1. Ler paginas relevantes em `02-domains/`, `03-wiki/`, `04-maps/` e `05-projects/`.
-2. Consultar fontes em `01-raw/` quando a resposta depender da origem.
+1. Ler paginas relevantes em `02-areas/`, `90-sistema/llm-wiki/wiki/`, `03-projetos/` e `05-saidas/`.
+2. Consultar fontes em `01-fontes/` quando a resposta depender da origem.
 3. Responder com citacoes para paginas do vault e caminhos de fontes quando disponiveis.
 4. Se a resposta tiver valor duravel, registrar em uma pagina adequada somente com autorizacao ou base real clara.
 
 ## Quando tiver duvida
 
-Se a IA nao souber onde colocar uma nota:
+Se a IA nao souber onde colocar algo:
 
 1. Nao inventar.
-2. Colocar em `00-inbox/para-processar/` ou `01-raw/inbox/`, conforme o tipo.
-3. Criar observacao no `log.md`.
-4. Sugerir 2 ou 3 classificacoes provaveis quando isso ajudar.
+2. Colocar pensamento solto em `00-inbox/para-processar/`.
+3. Colocar fonte externa em `01-fontes/inbox/`.
+4. Colocar conteudo incerto em `99-arquivo/revisar/`.
+5. Sugerir duas ou tres classificacoes provaveis quando isso ajudar.
