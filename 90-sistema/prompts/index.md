@@ -1,5 +1,13 @@
 # Índice da Biblioteca de Prompts
 
+## Uso diário
+
+[[uso-diario/README|Prompts de uso diário]]
+
+[[uso-diario/01-processar-inbox|Processar 00-inbox]]
+
+[[uso-diario/02-processar-fontes|Processar 01-fontes/inbox]]
+
 ## Core
 
 [[00-core/README]]

@@ -24,6 +24,18 @@ Serve para centralizar comandos prontos para usar com Codex, ChatGPT ou outro ag
 - Prompts de operações Codex
 - Prompt packs
 
+## Prompts principais de uso diário
+
+Os prompts principais para o uso diário ficam em:
+
+90-sistema/prompts/uso-diario/
+
+Eles servem para processar:
+
+00-inbox/
+
+01-fontes/inbox/
+
 ## Regra principal
 
 Prompts são modelos.
